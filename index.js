@@ -1,21 +1,4 @@
-  /*Assalamualaikum Semua👋
-Bagi yang udah ambil sc ini, sebelum nya terima kasih sudah download:))
-Jangann lupa ya kasih tq to nama gua "Arasyaa", yang mau recode izin ke gua dulu aja https://wa.me/6289626029135
-
-Thanks To
-- Affis
-- Rafli Rusdiana
-- Manik
-- Megumin Desu
-- Penyedia Rest api
-- Riyann
-- Putra
-- YogiPw
-- DappaUhuy
-- Mhank Bar Bar
-
-arigatouuuuuuuu, selamat ngerun, klo eror jangan salahin gua jancuk*/
- const {
+  const {
   WAConnection: _WAConnection,
   MessageType,
   Presence,
@@ -127,7 +110,7 @@ fake = "*Katashi-Bot*";
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
-alasan = "Gada🗿";
+alasan = "GadaðŸ—¿";
 autojoin = false;
 prefixStatus = false;
 hit_today = [];
@@ -472,7 +455,7 @@ module.exports = syaa = async (syaa, mek) => {
     const pushname = mek.key.fromMe
       ? syaa.user.name
       : conts.notify || conts.vname || conts.name || "-";
-    const readmore = "͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏";
+    const readmore = "ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ";
     if (prefix && command) cmdadd();
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
@@ -526,7 +509,7 @@ module.exports = syaa = async (syaa, mek) => {
       prem: "Khusus Member Premm!!!",
       own: "*[OWNER BOT ONLY]*",
       ban: "Kamu Telah Di Ban Oleh Owner, silahkan chat owner untuk minta di unban",
-      success: "Success√",
+      success: "Successâˆš",
       wrongFormat: "Format salah, Liat kembali di menu",
       error: {
         stick: "Sticker Only",
@@ -990,25 +973,25 @@ module.exports = syaa = async (syaa, mek) => {
         await syaa.updatePresence(from, Presence.recording)
         
         const sotoy = [
-        '🍊 : 🍒 : 🍐',
-        '🍒 : 🔔 : 🍊',
-        '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //ANKER
-        '🔔 : 🍒 : 🍐',
-        '🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',        
-        '🍐 : 🍒 : 🍋',
-        '🍐 : 🍒 : 🍐',
-        '🍊 : 🍒 : 🍒',
-        '🍒 : 🍒 : 🍒 Win👑',
-        '🔔 : 🔔 : 🍇',
-        '🍌 : 🍌 : 🔔',
-        '🔔 : 🔔 : 🔔 Win👑',
-        '🍐 : 🔔 : 🔔',
-        '🍊 : 🍋 : 🍒',
-        '🔔 : 🔔 : 🍇',
-        '🔔 : 🍇 : 🍇', 
-        '🔔 : 🍐 : 🔔','🍊 : 🍒 : 🍐','🍒 : 🔔 : 🍊','🍇 : 🍇 : 🍇 Win👑','🍊 : 🍋 : 🔔','🔔 : 🍒 : 🍐','🔔 : 🍒 : 🍊','🍊 : 🍋 : 🔔',	'🍐 : 🍒 : 🍋','🍐 : 🍐 : 🍐 Win👑','🍊 : 🍒 : 🍒','🔔 : 🔔 : 🍇','🍌 : 🍒 : 🔔','🍐 : 🔔 : 🔔','🍊 : 🍋 : 🍒','🍋 : 🍋 : 🍌','🔔 : 🔔 : 🍇','🔔 : 🍐 : 🍇','🍒 : 🍒 : 🍒 Win👑','🍌 : 🍌 : 🍌 Win👑']
+        'ðŸŠ : ðŸ’ : ðŸ',
+        'ðŸ’ : ðŸ”” : ðŸŠ',
+        'ðŸ‡ : ðŸ‡ : ðŸ',
+        'ðŸŠ : ðŸ‹ : ðŸ””', //ANKER
+        'ðŸ”” : ðŸ’ : ðŸ',
+        'ðŸ”” : ðŸ’ : ðŸŠ',
+        'ðŸŠ : ðŸ‹ : ðŸ””',        
+        'ðŸ : ðŸ’ : ðŸ‹',
+        'ðŸ : ðŸ’ : ðŸ',
+        'ðŸŠ : ðŸ’ : ðŸ’',
+        'ðŸ’ : ðŸ’ : ðŸ’ WinðŸ‘‘',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸŒ : ðŸŒ : ðŸ””',
+        'ðŸ”” : ðŸ”” : ðŸ”” WinðŸ‘‘',
+        'ðŸ : ðŸ”” : ðŸ””',
+        'ðŸŠ : ðŸ‹ : ðŸ’',
+        'ðŸ”” : ðŸ”” : ðŸ‡',
+        'ðŸ”” : ðŸ‡ : ðŸ‡', 
+        'ðŸ”” : ðŸ : ðŸ””','ðŸŠ : ðŸ’ : ðŸ','ðŸ’ : ðŸ”” : ðŸŠ','ðŸ‡ : ðŸ‡ : ðŸ‡ WinðŸ‘‘','ðŸŠ : ðŸ‹ : ðŸ””','ðŸ”” : ðŸ’ : ðŸ','ðŸ”” : ðŸ’ : ðŸŠ','ðŸŠ : ðŸ‹ : ðŸ””',	'ðŸ : ðŸ’ : ðŸ‹','ðŸ : ðŸ : ðŸ WinðŸ‘‘','ðŸŠ : ðŸ’ : ðŸ’','ðŸ”” : ðŸ”” : ðŸ‡','ðŸŒ : ðŸ’ : ðŸ””','ðŸ : ðŸ”” : ðŸ””','ðŸŠ : ðŸ‹ : ðŸ’','ðŸ‹ : ðŸ‹ : ðŸŒ','ðŸ”” : ðŸ”” : ðŸ‡','ðŸ”” : ðŸ : ðŸ‡','ðŸ’ : ðŸ’ : ðŸ’ WinðŸ‘‘','ðŸŒ : ðŸŒ : ðŸŒ WinðŸ‘‘']
     //if (!isGroup && !isCmd) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mTEXT\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'args :', color(args.length))
     if (prefix && command && isGroup)
       console.log(
@@ -1039,7 +1022,7 @@ module.exports = syaa = async (syaa, mek) => {
         } else {
           vote.push({
             participant: id_vote,
-            voting: "✅",
+            voting: "âœ…",
           });
           fs.writeFileSync(`./lib/${from}.json`, JSON.stringify(vote));
           let _p = [];
@@ -1071,7 +1054,7 @@ module.exports = syaa = async (syaa, mek) => {
         } else {
           vote.push({
             participant: id_vote,
-            voting: "❌",
+            voting: "âŒ",
           });
           fs.writeFileSync(`./lib/${from}.json`, JSON.stringify(vote));
           let _p = [];
@@ -1247,386 +1230,386 @@ await syaa.setStatus(`Katashi Hana   Wib : ${jam}  Wita : ${wita}  Wit : ${wi
             if (isBanned) return reply(mess.ban)
         var menu = `${ucapanWaktu} kak *${pushname}*
         
-❋─────────────────❋
-*⦿ Jam :* ${jam}
-*⦿ Hari :* ${week} ${weton}
-*⦿ Tanggal :* ${date}
-${readmore}❋─────────────────❋
+â‹â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‹
+*â¦¿ Jam :* ${jam}
+*â¦¿ Hari :* ${week} ${weton}
+*â¦¿ Tanggal :* ${date}
+${readmore}â‹â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‹
 
 _ada Bug?_ ketik ${prefix}report _Alasan_
 
 *NEW FITUR*
 
 *OWNER*
-• ${prefix}off
-• ${prefix}on
-• ${prefix}status
-• ${prefix}setthumb
-• ${prefix}settarget
-• ${prefix}shutdown
-• ${prefix}hacked
-• ${prefix}setfakeimg
-• ${prefix}addprem @user
-• ${prefix}dellprem @user
-• ${prefix}ban @user
-• ${prefix}unban @user
-• ${prefix}setreply
-• ${prefix}setprefix [2 Button]
-• ${prefix}mode [2 Button self/public]
-• ${prefix}term <code>
-• ${prefix}eval <code>
-• ${prefix}colongsw 
-• ${prefix}readall
+â€¢ ${prefix}off
+â€¢ ${prefix}on
+â€¢ ${prefix}status
+â€¢ ${prefix}setthumb
+â€¢ ${prefix}settarget
+â€¢ ${prefix}shutdown
+â€¢ ${prefix}hacked
+â€¢ ${prefix}setfakeimg
+â€¢ ${prefix}addprem @user
+â€¢ ${prefix}dellprem @user
+â€¢ ${prefix}ban @user
+â€¢ ${prefix}unban @user
+â€¢ ${prefix}setreply
+â€¢ ${prefix}setprefix [2 Button]
+â€¢ ${prefix}mode [2 Button self/public]
+â€¢ ${prefix}term <code>
+â€¢ ${prefix}eval <code>
+â€¢ ${prefix}colongsw 
+â€¢ ${prefix}readall
  $
  >
  =>
     
 *GRUP*
-• ${prefix}grup [3 Button]
-• ${prefix}getpic @user
-• ${prefix}promote <reply chat member>
-• ${prefix}demote <reply chat member>
-• ${prefix}setdesc
-• ${prefix}setname
-• ${prefix}kick <reply/tag member>
-• ${prefix}add <reply/tag member>
-• ${prefix}getbio <reply chat member>
-• ${prefix}getname <reply chat member>
-• ${prefix}reminder <msg/2s>
-• ${prefix}listonline
-• ${prefix}groupinfo
-• ${prefix}linkgc
-• ${prefix}sider [reply chat bot]
-• ${prefix}antilink
-• ${prefix}antihidetag
-• ${prefix}antiviewonce
-• ${prefix}antivirtex
-• ${prefix}kickarea
-• ${prefix}tagall _Text_
+â€¢ ${prefix}grup [3 Button]
+â€¢ ${prefix}getpic @user
+â€¢ ${prefix}promote <reply chat member>
+â€¢ ${prefix}demote <reply chat member>
+â€¢ ${prefix}setdesc
+â€¢ ${prefix}setname
+â€¢ ${prefix}kick <reply/tag member>
+â€¢ ${prefix}add <reply/tag member>
+â€¢ ${prefix}getbio <reply chat member>
+â€¢ ${prefix}getname <reply chat member>
+â€¢ ${prefix}reminder <msg/2s>
+â€¢ ${prefix}listonline
+â€¢ ${prefix}groupinfo
+â€¢ ${prefix}linkgc
+â€¢ ${prefix}sider [reply chat bot]
+â€¢ ${prefix}antilink
+â€¢ ${prefix}antihidetag
+â€¢ ${prefix}antiviewonce
+â€¢ ${prefix}antivirtex
+â€¢ ${prefix}kickarea
+â€¢ ${prefix}tagall _Text_
     
 *MAKER*
-• ${prefix}fdeface
-• ${prefix}semoji
-• ${prefix}wasted
-• ${prefix}wanted
-• ${prefix}pubglogo teks|teks
-• ${prefix}deltrash
-• ${prefix}squidrip
-• ${prefix}sertiff1 <text>
-• ${prefix}bpink <text>
-• ${prefix}tulis
-• ${prefix}googlem Text|Text
-• ${prefix}roses
-• ${prefix}wooden
-• ${prefix}quote
-• ${prefix}textburn
-• ${prefix}card-game Judul|Keterangan
-• ${prefix}tahta _Nama_
-• ${prefix}halloween _Name_
-• ${prefix}minion _Name_
-• ${prefix}dance _Name_
-• ${prefix}warrior _Name_
-• ${prefix}text3d _Name_
-• ${prefix}express
-• ${prefix}spiderman
-• ${prefix}matrix
-• ${prefix}vampire
-• ${prefix}remm _Name_
-• ${prefix}lolim _Text_
-• ${prefix}kaneki _Name_
-• ${prefix}nuliskiri _Text_
-• ${prefix}nuliskanan _Text_
-• ${prefix}foliokiri _Text_
-• ${prefix}foliokanan _Text_
-• ${prefix}gfx _Text_
-• ${prefix}gfx2 _Text|Text_
+â€¢ ${prefix}fdeface
+â€¢ ${prefix}semoji
+â€¢ ${prefix}wasted
+â€¢ ${prefix}wanted
+â€¢ ${prefix}pubglogo teks|teks
+â€¢ ${prefix}deltrash
+â€¢ ${prefix}squidrip
+â€¢ ${prefix}sertiff1 <text>
+â€¢ ${prefix}bpink <text>
+â€¢ ${prefix}tulis
+â€¢ ${prefix}googlem Text|Text
+â€¢ ${prefix}roses
+â€¢ ${prefix}wooden
+â€¢ ${prefix}quote
+â€¢ ${prefix}textburn
+â€¢ ${prefix}card-game Judul|Keterangan
+â€¢ ${prefix}tahta _Nama_
+â€¢ ${prefix}halloween _Name_
+â€¢ ${prefix}minion _Name_
+â€¢ ${prefix}dance _Name_
+â€¢ ${prefix}warrior _Name_
+â€¢ ${prefix}text3d _Name_
+â€¢ ${prefix}express
+â€¢ ${prefix}spiderman
+â€¢ ${prefix}matrix
+â€¢ ${prefix}vampire
+â€¢ ${prefix}remm _Name_
+â€¢ ${prefix}lolim _Text_
+â€¢ ${prefix}kaneki _Name_
+â€¢ ${prefix}nuliskiri _Text_
+â€¢ ${prefix}nuliskanan _Text_
+â€¢ ${prefix}foliokiri _Text_
+â€¢ ${prefix}foliokanan _Text_
+â€¢ ${prefix}gfx _Text_
+â€¢ ${prefix}gfx2 _Text|Text_
     
 *MAKER CONVERT*
-• ${prefix}spongebobm _ReplyGambar_
-• ${prefix}hengkerm _ReplyGambar_
-• ${prefix}hengkerm2 _ReplyGambar_
-• ${prefix}ripm _ReplyGambar_
-• ${prefix}stonkm _ReplyGambar_
-• ${prefix}notstonkm _ReplyGambar_
-• ${prefix}patrickm _ReplyGambar_
-• ${prefix}narutobanner <query>
+â€¢ ${prefix}spongebobm _ReplyGambar_
+â€¢ ${prefix}hengkerm _ReplyGambar_
+â€¢ ${prefix}hengkerm2 _ReplyGambar_
+â€¢ ${prefix}ripm _ReplyGambar_
+â€¢ ${prefix}stonkm _ReplyGambar_
+â€¢ ${prefix}notstonkm _ReplyGambar_
+â€¢ ${prefix}patrickm _ReplyGambar_
+â€¢ ${prefix}narutobanner <query>
    
 *FUN MENU*
-• ${prefix}slot
-• ${prefix}suit
-• ${prefix}say _Text_
-• ${prefix}bisakah _Querry_
-• ${prefix}kapankah _Querry_
-• ${prefix}apakah _Querry_
-• ${prefix}belah _Querry_
-• ${prefix}bagaimanakah _Querry_
-• ${prefix}rate _Querry_
-• ${prefix}caklontong
-• ${prefix}sangecek _Name_
-• ${prefix}gaycek _Name_
-• ${prefix}terganteng
-• ${prefix}tercantik
-• ${prefix}lesbicek _Name_
-• ${prefix}gantengcek _Name_
-• ${prefix}cantikcek _Name_
-• ${prefix}watak _Name_
-• ${prefix}hobby _Name_
-• ${prefix}jadian
-• ${prefix}ngewe
-• ${prefix}tod
-• ${prefix}truth
-• ${prefix}dare
-• ${prefix}wangy _NamaMu_
-• ${prefix}citacita
-• ${prefix}katailham
-• ${prefix}cekwatak
-• ${prefix}cekmati _Text_
+â€¢ ${prefix}slot
+â€¢ ${prefix}suit
+â€¢ ${prefix}say _Text_
+â€¢ ${prefix}bisakah _Querry_
+â€¢ ${prefix}kapankah _Querry_
+â€¢ ${prefix}apakah _Querry_
+â€¢ ${prefix}belah _Querry_
+â€¢ ${prefix}bagaimanakah _Querry_
+â€¢ ${prefix}rate _Querry_
+â€¢ ${prefix}caklontong
+â€¢ ${prefix}sangecek _Name_
+â€¢ ${prefix}gaycek _Name_
+â€¢ ${prefix}terganteng
+â€¢ ${prefix}tercantik
+â€¢ ${prefix}lesbicek _Name_
+â€¢ ${prefix}gantengcek _Name_
+â€¢ ${prefix}cantikcek _Name_
+â€¢ ${prefix}watak _Name_
+â€¢ ${prefix}hobby _Name_
+â€¢ ${prefix}jadian
+â€¢ ${prefix}ngewe
+â€¢ ${prefix}tod
+â€¢ ${prefix}truth
+â€¢ ${prefix}dare
+â€¢ ${prefix}wangy _NamaMu_
+â€¢ ${prefix}citacita
+â€¢ ${prefix}katailham
+â€¢ ${prefix}cekwatak
+â€¢ ${prefix}cekmati _Text_
 
 *STICKER MENU*
-• ${prefix}bajingan lu _Text_
-• ${prefix}sticker
-• ${prefix}gay
-• ${prefix}take Author|Pack
-• ${prefix}swm Author|Pack
-• ${prefix}attp _Text_
-• ${prefix}ttp _Text_
-• ${prefix}ttpblue _Text_
-• ${prefix}ttpyellow _Text_
-• ${prefix}ttpgreen _Text_
-• ${prefix}stcmeme <query>
+â€¢ ${prefix}bajingan lu _Text_
+â€¢ ${prefix}sticker
+â€¢ ${prefix}gay
+â€¢ ${prefix}take Author|Pack
+â€¢ ${prefix}swm Author|Pack
+â€¢ ${prefix}attp _Text_
+â€¢ ${prefix}ttp _Text_
+â€¢ ${prefix}ttpblue _Text_
+â€¢ ${prefix}ttpyellow _Text_
+â€¢ ${prefix}ttpgreen _Text_
+â€¢ ${prefix}stcmeme <query>
    
 *CONVERT*
-• ${prefix}toimg
-• ${prefix}tomp3
-• ${prefix}tomp4
-• ${prefix}slow
-• ${prefix}fast
-• ${prefix}reverse
-• ${prefix}tourl
-• ${prefix}toimg2
-• ${prefix}tomp42
+â€¢ ${prefix}toimg
+â€¢ ${prefix}tomp3
+â€¢ ${prefix}tomp4
+â€¢ ${prefix}slow
+â€¢ ${prefix}fast
+â€¢ ${prefix}reverse
+â€¢ ${prefix}tourl
+â€¢ ${prefix}toimg2
+â€¢ ${prefix}tomp42
 
 *ISLAM MENU*
-• ${prefix}listdaerah
-• ${prefix}randomquran _Text_
-• ${prefix}surah <query>
-• ${prefix}quotesislam
-• ${prefix}kisahnabi <query>
+â€¢ ${prefix}listdaerah
+â€¢ ${prefix}randomquran _Text_
+â€¢ ${prefix}surah <query>
+â€¢ ${prefix}quotesislam
+â€¢ ${prefix}kisahnabi <query>
     
 *DOWNLOADER*
-• ${prefix}youtube <url>
-• ${prefix}ytmp3 <url>
-• ${prefix}ytmp4 <url>
-• ${prefix}tiktok <url>
-• ${prefix}instagram <url>
-• ${prefix}twitter <url>
-• ${prefix}soundcloud* [url]
-• ${prefix}dafontdownload _Link_
-• ${prefix}xvideo _Link_
-• ${prefix}xs _Text_
-• ${prefix}xs2 _Text_
-• ${prefix}xnxx _Link_
-• ${prefix}twitter <link>
-• ${prefix}tiktok <link>
-• ${prefix}tiktok2 <link>
-• ${prefix}tiktokaudio <link>
-• ${prefix}fb <link>
-• ${prefix}play <query>
-• ${prefix}video <query>
-• ${prefix}spotify
-• ${prefix}nhentaipdf <kode>
-• ${prefix}ytmp42 <query>
+â€¢ ${prefix}youtube <url>
+â€¢ ${prefix}ytmp3 <url>
+â€¢ ${prefix}ytmp4 <url>
+â€¢ ${prefix}tiktok <url>
+â€¢ ${prefix}instagram <url>
+â€¢ ${prefix}twitter <url>
+â€¢ ${prefix}soundcloud* [url]
+â€¢ ${prefix}dafontdownload _Link_
+â€¢ ${prefix}xvideo _Link_
+â€¢ ${prefix}xs _Text_
+â€¢ ${prefix}xs2 _Text_
+â€¢ ${prefix}xnxx _Link_
+â€¢ ${prefix}twitter <link>
+â€¢ ${prefix}tiktok <link>
+â€¢ ${prefix}tiktok2 <link>
+â€¢ ${prefix}tiktokaudio <link>
+â€¢ ${prefix}fb <link>
+â€¢ ${prefix}play <query>
+â€¢ ${prefix}video <query>
+â€¢ ${prefix}spotify
+â€¢ ${prefix}nhentaipdf <kode>
+â€¢ ${prefix}ytmp42 <query>
 
 *UP STORY*
-• ${prefix}upswteks
-• ${prefix}upswimage
-• ${prefix}upswvideo
-• ${prefix}upswvoice
-• ${prefix}upswgif
-• ${prefix}upswaudio
-• ${prefix}upswsticker
+â€¢ ${prefix}upswteks
+â€¢ ${prefix}upswimage
+â€¢ ${prefix}upswvideo
+â€¢ ${prefix}upswvoice
+â€¢ ${prefix}upswgif
+â€¢ ${prefix}upswaudio
+â€¢ ${prefix}upswsticker
 
 *STORAGE MENU*
-• ${prefix}addvn _Nama_
-• ${prefix}addvideo _Nama_
-• ${prefix}addsticker _Nama_
-• ${prefix}addimage _Nama_
-• ${prefix}listvn
-• ${prefix}listvideo
-• ${prefix}liststicker
-• ${prefix}listimg
-• ${prefix}getvn _Database_
-• ${prefix}getvideo _Database_
-• ${prefix}getsticker _Database_
-• ${prefix}getimage _Database_
+â€¢ ${prefix}addvn _Nama_
+â€¢ ${prefix}addvideo _Nama_
+â€¢ ${prefix}addsticker _Nama_
+â€¢ ${prefix}addimage _Nama_
+â€¢ ${prefix}listvn
+â€¢ ${prefix}listvideo
+â€¢ ${prefix}liststicker
+â€¢ ${prefix}listimg
+â€¢ ${prefix}getvn _Database_
+â€¢ ${prefix}getvideo _Database_
+â€¢ ${prefix}getsticker _Database_
+â€¢ ${prefix}getimage _Database_
     
 *FUN*
-• ${prefix}fitnah
-• ${prefix}fitnahpc
-• ${prefix}kontak
-• ${prefix}katashi _Text_
-• ${prefix}putra _Text_
-• ${prefix}simi _Text_
+â€¢ ${prefix}fitnah
+â€¢ ${prefix}fitnahpc
+â€¢ ${prefix}kontak
+â€¢ ${prefix}katashi _Text_
+â€¢ ${prefix}putra _Text_
+â€¢ ${prefix}simi _Text_
     
 *TAG*
-• ${prefix}hidetag
-• ${prefix}kontag
-• ${prefix}sticktag
-• ${prefix}totag
+â€¢ ${prefix}hidetag
+â€¢ ${prefix}kontag
+â€¢ ${prefix}sticktag
+â€¢ ${prefix}totag
     
 *OTHER*
-• ${prefix}shortlink _Link_
-• ${prefix}wikipedia _Querry_
-• ${prefix}asupan
-• ${prefix}ocr
-• ${prefix}asupan2
-• ${prefix}tts id _Text_
-• ${prefix}polosanmeme
-• ${prefix}virtex
-• ${prefix}memeindo
-• ${prefix}detikvn <ReplyVn|Jumlah>
-• ${prefix}detikvideo <ReplyVid|Jumlah>
-• ${prefix}delete
-• ${prefix}infogempa
-• ${prefix}dadu
-• ${prefix}tospam _Jumlah_
-• ${prefix}ping
-• ${prefix}inspect
-• ${prefix}join
-• ${prefix}caripesan <query>
-• ${prefix}get
-• ${prefix}urlshort _Link_
-• ${prefix}urlshort2 _Text_
-• ${prefix}brainly <query>
-• ${prefix}image <query>
-• ${prefix}anime <random>
-• ${prefix}pinterest <query>
-• ${prefix}komiku <query>
-• ${prefix}lirik <query>
-• ${prefix}chara <query>
-• ${prefix}playstore <query>
-• ${prefix}otaku <query>
-• ${prefix}tokohindo
-• ${prefix}renungan
-• ${prefix}animeindo (text)
-• ${prefix}kodepos2 (text) 
-• ${prefix}gabut 
+â€¢ ${prefix}shortlink _Link_
+â€¢ ${prefix}wikipedia _Querry_
+â€¢ ${prefix}asupan
+â€¢ ${prefix}ocr
+â€¢ ${prefix}asupan2
+â€¢ ${prefix}tts id _Text_
+â€¢ ${prefix}polosanmeme
+â€¢ ${prefix}virtex
+â€¢ ${prefix}memeindo
+â€¢ ${prefix}detikvn <ReplyVn|Jumlah>
+â€¢ ${prefix}detikvideo <ReplyVid|Jumlah>
+â€¢ ${prefix}delete
+â€¢ ${prefix}infogempa
+â€¢ ${prefix}dadu
+â€¢ ${prefix}tospam _Jumlah_
+â€¢ ${prefix}ping
+â€¢ ${prefix}inspect
+â€¢ ${prefix}join
+â€¢ ${prefix}caripesan <query>
+â€¢ ${prefix}get
+â€¢ ${prefix}urlshort _Link_
+â€¢ ${prefix}urlshort2 _Text_
+â€¢ ${prefix}brainly <query>
+â€¢ ${prefix}image <query>
+â€¢ ${prefix}anime <random>
+â€¢ ${prefix}pinterest <query>
+â€¢ ${prefix}komiku <query>
+â€¢ ${prefix}lirik <query>
+â€¢ ${prefix}chara <query>
+â€¢ ${prefix}playstore <query>
+â€¢ ${prefix}otaku <query>
+â€¢ ${prefix}tokohindo
+â€¢ ${prefix}renungan
+â€¢ ${prefix}animeindo (text)
+â€¢ ${prefix}kodepos2 (text) 
+â€¢ ${prefix}gabut 
 
 *INFORMATION MENU*
-• ${prefix}cuacabandara
-• ${prefix}cuaca1 <_Nama Daerah_>
-• ${prefix}cuaca <_Nama Daerah>
-• ${prefix}rscovid
-• ${prefix}jadwalbola 
-• ${prefix}jadwaltvnow 
-• ${prefix}trendingtwitter
-• ${prefix}mostviewfilm
-• ${prefix}infoloker
-• ${prefix}datasekolah <query>
-• ${prefix}datasekolah2 <query>
+â€¢ ${prefix}cuacabandara
+â€¢ ${prefix}cuaca1 <_Nama Daerah_>
+â€¢ ${prefix}cuaca <_Nama Daerah>
+â€¢ ${prefix}rscovid
+â€¢ ${prefix}jadwalbola 
+â€¢ ${prefix}jadwaltvnow 
+â€¢ ${prefix}trendingtwitter
+â€¢ ${prefix}mostviewfilm
+â€¢ ${prefix}infoloker
+â€¢ ${prefix}datasekolah <query>
+â€¢ ${prefix}datasekolah2 <query>
 
 *SEARCH MENU*
-• ${prefix}ytsearch <query>
-• ${prefix}carimasakna _masakanya_
-• ${prefix}thelazy _Text_
-• ${prefix}palingmurah (text)
-• ${prefix}sfilesearch (text)
-• ${prefix}ytstalk (channel)
-• ${prefix}happymod <text>
-• ${prefix}film <text>
-• ${prefix}ytplaylist <text>
-• ${prefix}ytchannel <text> 
-• ${prefix}jav (text)
-• ${prefix}phsearch (text)
-• ${prefix}chord _Text_
-• ${prefix}nekopoirandom
-• ${prefix}nekopoisearch
-• ${prefix}ytstalk _Text_ 
-• ${prefix}jooxsearch <query>
-• ${prefix}pesantren <id>
-• ${prefix}kabupaten <id>
-• ${prefix}provinsi 
-• ${prefix}kusonime <query>
-• ${prefix}samehadaku <query>
-• ${prefix}dafontsearch <query>
-• ${prefix}jarak <query>
-• ${prefix}nhentaisearch <query>
-• ${prefix}komiku <query>
+â€¢ ${prefix}ytsearch <query>
+â€¢ ${prefix}carimasakna _masakanya_
+â€¢ ${prefix}thelazy _Text_
+â€¢ ${prefix}palingmurah (text)
+â€¢ ${prefix}sfilesearch (text)
+â€¢ ${prefix}ytstalk (channel)
+â€¢ ${prefix}happymod <text>
+â€¢ ${prefix}film <text>
+â€¢ ${prefix}ytplaylist <text>
+â€¢ ${prefix}ytchannel <text> 
+â€¢ ${prefix}jav (text)
+â€¢ ${prefix}phsearch (text)
+â€¢ ${prefix}chord _Text_
+â€¢ ${prefix}nekopoirandom
+â€¢ ${prefix}nekopoisearch
+â€¢ ${prefix}ytstalk _Text_ 
+â€¢ ${prefix}jooxsearch <query>
+â€¢ ${prefix}pesantren <id>
+â€¢ ${prefix}kabupaten <id>
+â€¢ ${prefix}provinsi 
+â€¢ ${prefix}kusonime <query>
+â€¢ ${prefix}samehadaku <query>
+â€¢ ${prefix}dafontsearch <query>
+â€¢ ${prefix}jarak <query>
+â€¢ ${prefix}nhentaisearch <query>
+â€¢ ${prefix}komiku <query>
 
 *SPAM MENU*
-• ${prefix}spamsms <89xnxx>
-• ${prefix}spamcall <89xnxx>
+â€¢ ${prefix}spamsms <89xnxx>
+â€¢ ${prefix}spamcall <89xnxx>
 
 *NEWS MENU*
-• ${prefix}cnn 
-• ${prefix}kompastv
-• ${prefix}tribunnews
-• ${prefix}liputan
-• ${prefix}foxnews
+â€¢ ${prefix}cnn 
+â€¢ ${prefix}kompastv
+â€¢ ${prefix}tribunnews
+â€¢ ${prefix}liputan
+â€¢ ${prefix}foxnews
 
 *STALK MENU*
-• ${prefix}igstalk <query>
-• ${prefix}githubstalk <query>
-• ${prefix}tiktokstalk <query>
-• ${prefix}igstory <username>
+â€¢ ${prefix}igstalk <query>
+â€¢ ${prefix}githubstalk <query>
+â€¢ ${prefix}tiktokstalk <query>
+â€¢ ${prefix}igstory <username>
     
 *RANDOM IMAGE*
-• ${prefix}darkjoke
-• ${prefix}cecan
-• ${prefix}cogan
-• ${prefix}hentai
-• ${prefix}quotes
-• ${prefix}kucing
-• ${prefix}squidward
-• ${prefix}spongebob
-• ${prefix}patrick
-• ${prefix}minato
-• ${prefix}kakashi
-• ${prefix}boruto
-• ${prefix}sarada
-• ${prefix}mitsuki
-• ${prefix}sasuke
-• ${prefix}sakura
-• ${prefix}itachi
-• ${prefix}megumin
-• ${prefix}loli
-• ${prefix}husbu
-• ${prefix}wafiu
-• ${prefix}wallpaperanime
-• ${prefix}naruto
-• ${prefix}aesthetic
-• ${prefix}bts
-• ${prefix}blackpink
-• ${prefix}ppcp
-• ${prefix}quotesyt
+â€¢ ${prefix}darkjoke
+â€¢ ${prefix}cecan
+â€¢ ${prefix}cogan
+â€¢ ${prefix}hentai
+â€¢ ${prefix}quotes
+â€¢ ${prefix}kucing
+â€¢ ${prefix}squidward
+â€¢ ${prefix}spongebob
+â€¢ ${prefix}patrick
+â€¢ ${prefix}minato
+â€¢ ${prefix}kakashi
+â€¢ ${prefix}boruto
+â€¢ ${prefix}sarada
+â€¢ ${prefix}mitsuki
+â€¢ ${prefix}sasuke
+â€¢ ${prefix}sakura
+â€¢ ${prefix}itachi
+â€¢ ${prefix}megumin
+â€¢ ${prefix}loli
+â€¢ ${prefix}husbu
+â€¢ ${prefix}wafiu
+â€¢ ${prefix}wallpaperanime
+â€¢ ${prefix}naruto
+â€¢ ${prefix}aesthetic
+â€¢ ${prefix}bts
+â€¢ ${prefix}blackpink
+â€¢ ${prefix}ppcp
+â€¢ ${prefix}quotesyt
 
 *RANDOM TEXT*
-• ${prefix}randombokep
-• ${prefix}style (text)
-• ${prefix}pastebin (text)
-• ${prefix}nickepep
-• ${prefix}fake
-• ${prefix}twich
-• ${prefix}cersex
-• ${prefix}cerpen
-• ${prefix}katacinta
-• ${prefix}tongue
-• ${prefix}renungan
-• ${prefix}randomcerpen 
+â€¢ ${prefix}randombokep
+â€¢ ${prefix}style (text)
+â€¢ ${prefix}pastebin (text)
+â€¢ ${prefix}nickepep
+â€¢ ${prefix}fake
+â€¢ ${prefix}twich
+â€¢ ${prefix}cersex
+â€¢ ${prefix}cerpen
+â€¢ ${prefix}katacinta
+â€¢ ${prefix}tongue
+â€¢ ${prefix}renungan
+â€¢ ${prefix}randomcerpen 
 
 *JADI BOT*
-• ${prefix}jadibot
-• ${prefix}stopjadibot
-• ${prefix}listbot
+â€¢ ${prefix}jadibot
+â€¢ ${prefix}stopjadibot
+â€¢ ${prefix}listbot
 
 *STICKER CMD*
-• ${prefix}addcmd
-• ${prefix}delcmd
-• ${prefix}listcmd
+â€¢ ${prefix}addcmd
+â€¢ ${prefix}delcmd
+â€¢ ${prefix}listcmd
     
 *VOTE*
-• ${prefix}voting
-• ${prefix}delvote
+â€¢ ${prefix}voting
+â€¢ ${prefix}delvote
  vote
  devote
 
@@ -1645,18 +1628,18 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
 - _PUTRA_
 
  *INFO BOT*
-• Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-• Runtime : ${runtime(process.uptime())}
-• Hit Today : ${hit_today.length} Hit
-• Total Hit : ${totalhit} Hit
-• Total Chat : ${totalchat.length} Chat
+â€¢ Prefix : ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€
+â€¢ Runtime : ${runtime(process.uptime())}
+â€¢ Hit Today : ${hit_today.length} Hit
+â€¢ Total Hit : ${totalhit} Hit
+â€¢ Total Chat : ${totalchat.length} Chat
 
 `;
-        sendButImage(from, menu, "by @k4t4sh1._ ❤️", thumb, [
+        sendButImage(from, menu, "by @k4t4sh1._ â¤ï¸", thumb, [
           {
             buttonId: `${prefix}donasi`,
             buttonText: {
-              displayText: `Donasi💰`,
+              displayText: `DonasiðŸ’°`,
             },
             type: 1,
           },
@@ -1679,7 +1662,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
                 }, 2000)
                 setTimeout( () => {
                 syaa.updatePresence(from, Presence.composing) 
-                syaa.sendMessage(from, 'Bye cuk🗣', text) // ur cods
+                syaa.sendMessage(from, 'Bye cukðŸ—£', text) // ur cods
                 }, 0)
                 break
         case 'tagall':
@@ -1701,50 +1684,50 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
             if (isBanned) return reply(mess.ban)
         var menu = `Halloo ${pushname} Aku ${namabot}
 
-❋─────────────────❋
+â‹â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‹
  *INFO OWNER*
- 📧 Instagram : https://instagram.com/${instagram}
- 🪀 Whatsapp : https://wa.me/${owner}
- 📌 Youtube : ${yt}
+ ðŸ“§ Instagram : https://instagram.com/${instagram}
+ ðŸª€ Whatsapp : https://wa.me/${owner}
+ ðŸ“Œ Youtube : ${yt}
  
 *${prefix}sticker*
 *${prefix}owner*
 *${prefix}info*
 
-❋─────────────────❋
+â‹â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‹
  
  Join Grup ${namabot}!
  
  ${grupct}
 
-❋─────────────────❋
+â‹â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‹
  *INFO BOT KATASHI*
-• Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-• Runtime : ${runtime(process.uptime())}
-• Hit Today : ${hit_today.length} Hit
-• Total Hit : ${totalhit} Hit
-• Total Chat : ${totalchat.length} Chat
-❋─────────────────❋
+â€¢ Prefix : ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€
+â€¢ Runtime : ${runtime(process.uptime())}
+â€¢ Hit Today : ${hit_today.length} Hit
+â€¢ Total Hit : ${totalhit} Hit
+â€¢ Total Chat : ${totalchat.length} Chat
+â‹â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‹
 `;
-        sendButImage(from, menu, "ALLERT⚠️\n\nJIKA ANDA MEMAKAI WHATSAPP MOD DAN TOMBOL DIBAWAH TIDAK TERLIHAT\nSILAHKAN KETIK /allmenu", thumb, [
+        sendButImage(from, menu, "ALLERTâš ï¸\n\nJIKA ANDA MEMAKAI WHATSAPP MOD DAN TOMBOL DIBAWAH TIDAK TERLIHAT\nSILAHKAN KETIK /allmenu", thumb, [
           {
             buttonId: `${prefix}infomenu`,
             buttonText: {
-              displayText: `⋮☰ Semua Menu`,
+              displayText: `â‹®â˜° Semua Menu`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}owner`,
             buttonText: {
-              displayText: `⋮☰ Pemilik Bot`,
+              displayText: `â‹®â˜° Pemilik Bot`,
             },
             type: 1,
           },
         {
             buttonId: `${prefix}peraturan2`,
             buttonText: {
-              displayText: `Syarat & Ketentuan📌`,
+              displayText: `Syarat & KetentuanðŸ“Œ`,
             },
             type: 1,
           },
@@ -1755,7 +1738,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
         sendKontak(from, owner, `${nama_owner}`, `Pemilik ${namabot}`);
         sendButMessage(
           from,
-          `Mau tanya² tentang apa?`,
+          `Mau tanyaÂ² tentang apa?`,
           `Silahkan pilih salah satu`,
           [
             {
@@ -1783,10 +1766,10 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
                   reply(`Salam dong sayang`)
                 }
         case "peraturan":
-        reply("By @k4t4sh1._\n\nPergunakan Bot Dengan Baik Dan Bijak!!!\n- Jangan Spam Dan Jangan Telepon Bot!!!\n- Silahkan Hubungi Owner Jika Bot Mengalama Kendala!!\n- Jangan Paksakan Bot Masuk Ke Grup Kamu!!!\n- <> TIDAK DI ANGGAP!!\n\nOkee Thanks🗿");
+        reply("By @k4t4sh1._\n\nPergunakan Bot Dengan Baik Dan Bijak!!!\n- Jangan Spam Dan Jangan Telepon Bot!!!\n- Silahkan Hubungi Owner Jika Bot Mengalama Kendala!!\n- Jangan Paksakan Bot Masuk Ke Grup Kamu!!!\n- <> TIDAK DI ANGGAP!!\n\nOkee ThanksðŸ—¿");
         break;
         case "hina":
-          reply("apa lu anjing😡")
+          reply("apa lu anjingðŸ˜¡")
           break;
         
       //------------------< Sticker Cmd >-------------------
@@ -1819,11 +1802,11 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
         reply("Done!");
         break;
       case "listcmd":
-        teksnyee = `\`\`\`「 LIST STICKER CMD 」\`\`\``;
+        teksnyee = `\`\`\`ã€Œ LIST STICKER CMD ã€\`\`\``;
         cemde = [];
         for (let i of _scommand) {
           cemde.push(i.id);
-          teksnyee += `\n\n➸ *ID :* ${i.id}\n➸ *Cmd* : ${i.chats}`;
+          teksnyee += `\n\nâž¸ *ID :* ${i.id}\nâž¸ *Cmd* : ${i.chats}`;
         }
         mentions(teksnyee, cemde, true);
         break;
@@ -1831,7 +1814,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
       //funmenu
                 case "bisakah":
                   if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
               
 					bisakah = body.slice(1)
@@ -1842,7 +1825,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
 					break
 		            case "kapankah":
 		              if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                 
 					kapankah = body.slice(1)
@@ -1853,7 +1836,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
 					break
 		            case "apakah":
 		              if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					apakah = body.slice(1)
@@ -1864,7 +1847,7 @@ _ada Bug?_ ketik ${prefix}report _Alasan_
 					break
 case "belah":
   if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by Arasya
+					// âš ï¸ Case by Arasya
                  
 				if (args.length < 1) return reply('mana pertanyaan nya kak?\nContoh #iyas bermain Free Fire')
 					iyas = body.slice(7)
@@ -1875,7 +1858,7 @@ case "belah":
 					break
 		            case "bagaimanakah":
 		              if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					bagaimanakah = body.slice(1)
@@ -1886,7 +1869,7 @@ case "belah":
 					break
 		            case "rate":
 		              if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					rate = body.slice(1)
@@ -1896,7 +1879,7 @@ case "belah":
 					await limitAdd(sender)
 					break
                     case "sangecek":
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 if (isBanned) return reply(mess.ban)
                  
 					sange = body.slice(1)
@@ -1907,7 +1890,7 @@ if (isBanned) return reply(mess.ban)
 					break
 case "gaycek":
   if (isBanned) return reply(mess.ban)
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
               
 					gayy = body.slice(1)
@@ -2057,7 +2040,7 @@ case 'addimage':
 					break
 ////atm&limit
 case "limit":
-				// Fix Case By Yogi/Hans⛔
+				// Fix Case By Yogi/Hansâ›”
                  
 				checkLimit(sender)
 				break
@@ -2067,7 +2050,7 @@ case 'slot':
             case 'slots':
               if (isBanned) return reply(mess.ban)
             const somtoy = sotoy[Math.floor(Math.random() * sotoy.length)]
-            syaa.sendMessage(from, `[  🎰 | SLOTS ]\n-----------------\n🍋 : 🍌 : 🍍\n${somtoy} <=====||\n🍋 : 🍌 : 🍍\n[  🎰 | SLOTS ]\n\nKeterangan : Jika anda Mendapatkan 3Buah Sama Berarti Anda Menang\n\nContoh : 🍌 : 🍌 : 🍌<=====`, MessageType.text, { quoted: mek })
+            syaa.sendMessage(from, `[  ðŸŽ° | SLOTS ]\n-----------------\nðŸ‹ : ðŸŒ : ðŸ\n${somtoy} <=====||\nðŸ‹ : ðŸŒ : ðŸ\n[  ðŸŽ° | SLOTS ]\n\nKeterangan : Jika anda Mendapatkan 3Buah Sama Berarti Anda Menang\n\nContoh : ðŸŒ : ðŸŒ : ðŸŒ<=====`, MessageType.text, { quoted: mek })
             sendButMessage(from, `Mau main lagi?`, `Pencet tombol di bawah`, [
           {
             buttonId: `${prefix}slot`,
@@ -2162,7 +2145,7 @@ case 'spongebobm':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/knights/spongebob?apikey=hardianto&pp=${anu.display_url}`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'hengkerm':
@@ -2177,7 +2160,7 @@ case 'hengkerm':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/beta/hacker2?apikey=hardianto&pp=${anu.display_url}`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'hengkerm2':
@@ -2192,7 +2175,7 @@ case 'hengkerm2':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/beta/hacker3?apikey=hardianto&pp=${anu.display_url}`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'ripm':
@@ -2207,7 +2190,7 @@ case 'ripm':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/rip?image=${anu.display_url}&apikey=hardianto`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'stonkm':
@@ -2222,7 +2205,7 @@ case 'stonkm':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/stonk?image=${anu.display_url}&apikey=hardianto`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'notstonkm':
@@ -2237,7 +2220,7 @@ case 'notstonkm':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/not-stonk?image=${anu.display_url}&apikey=hardianto`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'patrickm':
@@ -2252,7 +2235,7 @@ case 'patrickm':
 	  hehe = await getBuffer(`https://hardianto-chan.herokuapp.com/api/knights/patrick?apikey=hardianto&pp=${anu.display_url}`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'ocr':
@@ -2306,25 +2289,25 @@ case 'sutit':
   if (args.length < 1) return reply('Pilih gunting/batu/kertas')
 					if (args[0] === 'gunting' ) {
 					  gunting = [
-					    "Kamu *Gunting*\nAku *Kertas*\nKamu Menang 😔",
-					    "Kamu *Gunting*\nAku *Batu*\nKamu Kalah 🙂",
-					    "Kamu *Gunting*\nAku *Gunting*\nKita Seri 😏"
+					    "Kamu *Gunting*\nAku *Kertas*\nKamu Menang ðŸ˜”",
+					    "Kamu *Gunting*\nAku *Batu*\nKamu Kalah ðŸ™‚",
+					    "Kamu *Gunting*\nAku *Gunting*\nKita Seri ðŸ˜"
 					    ]
 					  gun = gunting[Math.floor(Math.random() * gunting.length)]
 					  reply(gun)
 					} else if (args[0] === 'kertas') {
 					  ker = [
-					    "Kamu *Kertas*\nAku *Batu*\nKamu Menang 😔",
-					    "Kamu *Kertas*\nAku *Gunting*\nKamu Kalah 🙂",
-					    "Kamu *Kertas*\nAku *Kertas*\nKita Seri 😏"
+					    "Kamu *Kertas*\nAku *Batu*\nKamu Menang ðŸ˜”",
+					    "Kamu *Kertas*\nAku *Gunting*\nKamu Kalah ðŸ™‚",
+					    "Kamu *Kertas*\nAku *Kertas*\nKita Seri ðŸ˜"
 					    ]
 					  kertas = ker[Math.floor(Math.random() * ker.length)]
 						reply(kertas)
 					} else if (args[0] === 'batu') {
 					  bat = [
 					    "Kamu *Batu*\nAku *Gunting*\nKamu Menang ??",
-					    "Kamu *Batu*\nAku *Kertas*\nKamu Kalah 🙂",
-					    "Kamu *Batu*\nAku *Batu*\nKita Seri 😏"
+					    "Kamu *Batu*\nAku *Kertas*\nKamu Kalah ðŸ™‚",
+					    "Kamu *Batu*\nAku *Batu*\nKita Seri ðŸ˜"
 					    ]
 					  batu = bat[Math.floor(Math.random() * bat.length)]
 					  reply(batu)
@@ -2370,7 +2353,7 @@ case 'wangy':
   if (isBanned) return reply(mess.ban)
               if (!q) return
               qq = q.toUpperCase()
-              awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
+              awikwok = `${qq} ${qq} ${qq} â¤ï¸ â¤ï¸ â¤ï¸ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis â¤ï¸ â¤ï¸ â¤ï¸ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH â¤ï¸ â¤ï¸ â¤ï¸apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. â¤ï¸ â¤ï¸ â¤ï¸ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah â¤ï¸ â¤ï¸ â¤ï¸ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
               reply(awikwok)
               break
  case "virtex":
@@ -2440,7 +2423,7 @@ var c = '```'
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += ` *→*  @${mem.jid.split('@')[0]}\n`
+						teks += ` *â†’*  @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -2824,7 +2807,7 @@ case 'infogempa':
   if (isBanned) return reply(mess.ban)
 					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/info/gempa?apikey=Ikyy69`, {method: 'get'})
 
-					gempa = `❏ *INFO GEMPA*\n\n❏ Waktu : ${anu.result.Waktu}\n❏ Lintang : ${anu.result.Lintang}\n❏ Bujur : ${anu.result.Bujur}\n❏ Magnitudo : ${anu.result.Magnitudo}\n❏ Kedalaman : ${anu.result.Kedalaman}\n❏ Wilayah : ${anu.result.Wilayah}`
+					gempa = `â *INFO GEMPA*\n\nâ Waktu : ${anu.result.Waktu}\nâ Lintang : ${anu.result.Lintang}\nâ Bujur : ${anu.result.Bujur}\nâ Magnitudo : ${anu.result.Magnitudo}\nâ Kedalaman : ${anu.result.Kedalaman}\nâ Wilayah : ${anu.result.Wilayah}`
 					reply('Sabar sayang')
 					buff = await getBuffer(anu.result.Map)
 					syaa.sendMessage(from, buff, image, {quoted: mek, caption: gempa})
@@ -2856,7 +2839,7 @@ case "infofilm": // Update NEW FITUR
 if (isBanned) return reply(mess.ban)
 reply(`wait loading`)
                 if (args.length < 1) return reply(`mau nyari apaan bwang di joox?`)
-                reply(`[❕] Loading`)
+                reply(`[â•] Loading`)
                 asu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/filmapik/search?film=${body.slice(10)}&apikey=beta`)
                 teks = '=================\n'
                 resa = asu.result.result
@@ -2866,16 +2849,16 @@ reply(`wait loading`)
                 reply(teks)
                 break
 case 'donat':
-              reply(`◪ *DONASI*
-  │
-  ├─ ❏ *GOPAY*
-  ├─ ❏ 088213292687
-  ├─ ❏ *OVO*
-  ├─ ❏ 088213292687
-  ├─ ❏ *PULSA*
-  ├─ ❏ 081319944917
-  ├─ ❏ *INSTAGRAM*
-  └─ ❏ https://www.instagram.com/@k4t4sh1._`)
+              reply(`â—ª *DONASI*
+  â”‚
+  â”œâ”€ â *GOPAY*
+  â”œâ”€ â 088213292687
+  â”œâ”€ â *OVO*
+  â”œâ”€ â 088213292687
+  â”œâ”€ â *PULSA*
+  â”œâ”€ â 081319944917
+  â”œâ”€ â *INSTAGRAM*
+  â””â”€ â https://www.instagram.com/@k4t4sh1._`)
 
               break
 case 'suratke': // Case Oleh Rafli
@@ -2891,16 +2874,16 @@ if (isBanned) return reply(mess.ban)
 				pping = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
 				const mnik = `
-╔════ ◤ *SURAT FITUR* ◢
-║╔▸
-║╠ *From* : ${pushname}
-║╠ *Number* : @${sender.split("@")[0]}
-║╠ *For* : You
-║╚▸
-║╔▸   ﹝ *ISI SURAT* ﹞  
-║╠ ${katakita2}
-║╚▸
-╚═══ ◤ *BY MINFORMASI* ◢ `
+â•”â•â•â•â• â—¤ *SURAT FITUR* â—¢
+â•‘â•”â–¸
+â•‘â•  *From* : ${pushname}
+â•‘â•  *Number* : @${sender.split("@")[0]}
+â•‘â•  *For* : You
+â•‘â•šâ–¸
+â•‘â•”â–¸   ï¹ *ISI SURAT* ï¹ž  
+â•‘â•  ${katakita2}
+â•‘â•šâ–¸
+â•šâ•â•â• â—¤ *BY MINFORMASI* â—¢ `
 				syaa.sendMessage(`${noorg2}@s.whatsapp.net`,pping, image , {caption: mnik, quoted: { key: {fromMe:false, participant:`${noorg2}@s.whatsapp.net`},message: { conversation: `${kataorg2}`, contextInfo: {"mentionedJid": [sender]}}}});	
 				reply('Surat Sukses Dikirim')
 				break
@@ -2916,7 +2899,7 @@ case "spamct":
 					break
 case "truth":
   if (isBanned) return reply(mess.ban)
-					// Fix Case By Yogi/Hans⛔
+					// Fix Case By Yogi/Hansâ›”
                  
 					const trut =['Pernah suka sama siapa aja? berapa lama?','Kalau boleh atau kalau mau, di gc/luar gc siapa yang akan kamu jadikan sahabat?(boleh beda/sma jenis)','apa ketakutan terbesar kamu?','pernah suka sama orang dan merasa orang itu suka sama kamu juga?','Siapa nama mantan pacar teman mu yang pernah kamu sukai diam diam?','pernah gak nyuri uang nyokap atau bokap? Alesanya?','hal yang bikin seneng pas lu lagi sedih apa','pernah cinta bertepuk sebelah tangan? kalo pernah sama siapa? rasanya gimana brou?','pernah jadi selingkuhan orang?','hal yang paling ditakutin','siapa orang yang paling berpengaruh kepada kehidupanmu','hal membanggakan apa yang kamu dapatkan di tahun ini','siapa orang yang bisa membuatmu sange','siapa orang yang pernah buatmu sange','(bgi yg muslim) pernah ga solat seharian?','Siapa yang paling mendekati tipe pasangan idealmu di sini','suka mabar(main bareng)sama siapa?','pernah nolak orang? alasannya kenapa?','Sebutkan kejadian yang bikin kamu sakit hati yang masih di inget','pencapaian yang udah didapet apa aja ditahun ini?','kebiasaan terburuk lo pas di sekolah apa?']
 					const ttrth = trut[Math.floor(Math.random() * trut.length)]
@@ -2926,7 +2909,7 @@ case "truth":
 
             buttonId: `${prefix}truth`,
             buttonText: {
-              displayText: `Truth😆`,
+              displayText: `TruthðŸ˜†`,
             },
             type: 1,
           },
@@ -2936,16 +2919,16 @@ case "truth":
 					break
 		case "dare":
 		  if (isBanned) return reply(mess.ban)
-					// Fix Case By Yogi/Hans⛔
+					// Fix Case By Yogi/Hansâ›”
                  
-					const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "🦄💨" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
+					const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "ðŸ¦„ðŸ’¨" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
 					const der = dare[Math.floor(Math.random() * dare.length)]
 					sya = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 					sendButImage(from, der, "Case By @iamghosky_\nmau lagi? tekan tombol di bawah", thumb, [
           {
             buttonId: `${prefix}dare`,
             buttonText: {
-              displayText: `Dare😆`,
+              displayText: `DareðŸ˜†`,
             },
             type: 1,
           },
@@ -2956,50 +2939,50 @@ case "donasi":
   case "donate":
 					// Fix Case by Putra
 					sya = await getBuffer(`${linkimg}`)
-					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `◪ *DONASI*
-  │
-  ├─ ❏ *GOPAY*
-  ├─ ❏ ${gopay}
-  ├─ ❏ *OVO*
-  ├─ ❏ ${ovo}
-  ├─ ❏ *DANA*
-  ├─ ❏ ${dana}
-  ├─ ❏ *PULSA*
-  ├─ ❏ ${pulsa}
-  ├─ ❏ *INSTAGRAM*
-  └─ ❏ https://www.instagram.com/${instagram}` })
+					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `â—ª *DONASI*
+  â”‚
+  â”œâ”€ â *GOPAY*
+  â”œâ”€ â ${gopay}
+  â”œâ”€ â *OVO*
+  â”œâ”€ â ${ovo}
+  â”œâ”€ â *DANA*
+  â”œâ”€ â ${dana}
+  â”œâ”€ â *PULSA*
+  â”œâ”€ â ${pulsa}
+  â”œâ”€ â *INSTAGRAM*
+  â””â”€ â https://www.instagram.com/${instagram}` })
 					break
 case "info":
     me = syaa.user
 					uptime = process.uptime()
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/2dbc5ba5b587d02c9ff3d.jpg`)
-					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*INFO OWNER*\n*Owner bot* : Chairul\n*No Owner* : wa.me/6289626029135\n*Ig owner* : www.instagram.com/${instagram}\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Ketik* : ${prefix}report _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.` })
+					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*INFO OWNER*\n*Owner bot* : Chairul\n*No Owner* : wa.me/6289626029135\n*Ig owner* : www.instagram.com/${instagram}\nâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Ketik* : ${prefix}report _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.` })
 					break
-//MENU² AN
+//MENUÂ² AN
 case "ownermenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/0f2a2ecf9500e502fe58a.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*OWNER MENU*
-• ${prefix}off
-• ${prefix}on
-• ${prefix}status
-• ${prefix}setthumb
-• ${prefix}settarget
-• ${prefix}shutdown
-• ${prefix}hacked
-• ${prefix}setfakeimg
-• ${prefix}setreply
-• ${prefix}addprem @user
-• ${prefix}dellprem @user
-• ${prefix}ban @user
-• ${prefix}unban @user
-• ${prefix}setprefix [2 Button]
-• ${prefix}mode [2 Button self/public]
-• ${prefix}term <code>
-• ${prefix}eval <code>
-• ${prefix}colongsw [reply sw]
-• ${prefix}readall
+â€¢ ${prefix}off
+â€¢ ${prefix}on
+â€¢ ${prefix}status
+â€¢ ${prefix}setthumb
+â€¢ ${prefix}settarget
+â€¢ ${prefix}shutdown
+â€¢ ${prefix}hacked
+â€¢ ${prefix}setfakeimg
+â€¢ ${prefix}setreply
+â€¢ ${prefix}addprem @user
+â€¢ ${prefix}dellprem @user
+â€¢ ${prefix}ban @user
+â€¢ ${prefix}unban @user
+â€¢ ${prefix}setprefix [2 Button]
+â€¢ ${prefix}mode [2 Button self/public]
+â€¢ ${prefix}term <code>
+â€¢ ${prefix}eval <code>
+â€¢ ${prefix}colongsw [reply sw]
+â€¢ ${prefix}readall
  $
  >
  =>` })
@@ -3009,268 +2992,268 @@ case "grupmenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/24149d6200dbd9e55942d.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*GRUP MENU*
-• ${prefix}grup [3 Button]
-• ${prefix}promote <reply chat member>
-• ${prefix}demote <reply chat member>
-• ${prefix}setdesc
-• ${prefix}setname
-• ${prefix}hidetag
-• ${prefix}kontag
-• ${prefix}sticktag
-• ${prefix}totag
-• ${prefix}kick <reply/tag member>
-• ${prefix}add <reply/tag member>
-• ${prefix}getbio <reply chat member>
-• ${prefix}getname <reply chat member>
-• ${prefix}reminder <msg/2s>
-• ${prefix}listonline
-• ${prefix}groupinfo
-• ${prefix}linkgc
-• ${prefix}sider [reply chat bot]
-• ${prefix}antilink
-• ${prefix}antihidetag
-• ${prefix}antiviewonce
-• ${prefix}antivirtex
-• ${prefix}kickarea` })
+â€¢ ${prefix}grup [3 Button]
+â€¢ ${prefix}promote <reply chat member>
+â€¢ ${prefix}demote <reply chat member>
+â€¢ ${prefix}setdesc
+â€¢ ${prefix}setname
+â€¢ ${prefix}hidetag
+â€¢ ${prefix}kontag
+â€¢ ${prefix}sticktag
+â€¢ ${prefix}totag
+â€¢ ${prefix}kick <reply/tag member>
+â€¢ ${prefix}add <reply/tag member>
+â€¢ ${prefix}getbio <reply chat member>
+â€¢ ${prefix}getname <reply chat member>
+â€¢ ${prefix}reminder <msg/2s>
+â€¢ ${prefix}listonline
+â€¢ ${prefix}groupinfo
+â€¢ ${prefix}linkgc
+â€¢ ${prefix}sider [reply chat bot]
+â€¢ ${prefix}antilink
+â€¢ ${prefix}antihidetag
+â€¢ ${prefix}antiviewonce
+â€¢ ${prefix}antivirtex
+â€¢ ${prefix}kickarea` })
 					break
 case "makermenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/ce0ff72c46a2d6b45e24a.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*MAKER MENU*
-• ${prefix}memegen Atas|Bawah
-• ${prefix}bajingan lu _Nama Mu_
-• ${prefix}sticker
-• ${prefix}attp _Text_
-• ${prefix}fdeface
-• ${prefix}semoji
-• ${prefix}wasted
-• ${prefix}wanted
-• ${prefix}pubglogo teks|teks
-• ${prefix}deltrash
-• ${prefix}card-game Judul|Keterangan
-• ${prefix}squidrip
-• ${prefix}sertiff1 <text>
-• ${prefix}bpink <text>
-• ${prefix}tulis
-• ${prefix}googlem Text|Text
-• ${prefix}roses
-• ${prefix}wooden
-• ${prefix}quote
-• ${prefix}textburn
-• ${prefix}tahta _Nama_
-• ${prefix}halloween _Name_
-• ${prefix}minion _Name_
-• ${prefix}dance _Name_
-• ${prefix}warrior _Name_
-• ${prefix}text3d _Name_
-• ${prefix}express _Name_
-• ${prefix}spiderman _Name_
-• ${prefix}matrix _Name_
-• ${prefix}vampire _Name_
-• ${prefix}lolim _Text_
-• ${prefix}remm _Text_
-• ${prefix}gura _Text_
-• ${prefix}kaneki _Name_` })
+â€¢ ${prefix}memegen Atas|Bawah
+â€¢ ${prefix}bajingan lu _Nama Mu_
+â€¢ ${prefix}sticker
+â€¢ ${prefix}attp _Text_
+â€¢ ${prefix}fdeface
+â€¢ ${prefix}semoji
+â€¢ ${prefix}wasted
+â€¢ ${prefix}wanted
+â€¢ ${prefix}pubglogo teks|teks
+â€¢ ${prefix}deltrash
+â€¢ ${prefix}card-game Judul|Keterangan
+â€¢ ${prefix}squidrip
+â€¢ ${prefix}sertiff1 <text>
+â€¢ ${prefix}bpink <text>
+â€¢ ${prefix}tulis
+â€¢ ${prefix}googlem Text|Text
+â€¢ ${prefix}roses
+â€¢ ${prefix}wooden
+â€¢ ${prefix}quote
+â€¢ ${prefix}textburn
+â€¢ ${prefix}tahta _Nama_
+â€¢ ${prefix}halloween _Name_
+â€¢ ${prefix}minion _Name_
+â€¢ ${prefix}dance _Name_
+â€¢ ${prefix}warrior _Name_
+â€¢ ${prefix}text3d _Name_
+â€¢ ${prefix}express _Name_
+â€¢ ${prefix}spiderman _Name_
+â€¢ ${prefix}matrix _Name_
+â€¢ ${prefix}vampire _Name_
+â€¢ ${prefix}lolim _Text_
+â€¢ ${prefix}remm _Text_
+â€¢ ${prefix}gura _Text_
+â€¢ ${prefix}kaneki _Name_` })
 					break
 case "funmenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/f5dd2eb768a133d3b6528.png`)
 					syaa.sendMessage(from, sya, image, { quoted: mek, caption: `*FUN MENU*
-• ${prefix}slot
-• ${prefix}suit
-• ${prefix}say _Text_
-• ${prefix}bisakah _Querry_
-• ${prefix}kapankah _Querry_
-• ${prefix}apakah _Querry_
-• ${prefix}belah _Querry_
-• ${prefix}bagaimanakah _Querry_
-• ${prefix}rate _Querry_
-• ${prefix}caklontong
-• ${prefix}sangecek _Name_
-• ${prefix}gaycek _Name_
-• ${prefix}terganteng
-• ${prefix}tercantik
-• ${prefix}lesbicek _Name_
-• ${prefix}gantengcek _Name_
-• ${prefix}cantikcek _Name_
-• ${prefix}watak _Name_
-• ${prefix}hobby _Name_
-• ${prefix}fitnah
-• ${prefix}fitnahpc
-• ${prefix}kontak 62896260291358|Arasya
-• ${prefix}jadian
-• ${prefix}
-• ${prefix}tod
-• ${prefix}truth
-• ${prefix}dare
-• ${prefix}wangy _NamaMu_
-• ${prefix}citacita` })
+â€¢ ${prefix}slot
+â€¢ ${prefix}suit
+â€¢ ${prefix}say _Text_
+â€¢ ${prefix}bisakah _Querry_
+â€¢ ${prefix}kapankah _Querry_
+â€¢ ${prefix}apakah _Querry_
+â€¢ ${prefix}belah _Querry_
+â€¢ ${prefix}bagaimanakah _Querry_
+â€¢ ${prefix}rate _Querry_
+â€¢ ${prefix}caklontong
+â€¢ ${prefix}sangecek _Name_
+â€¢ ${prefix}gaycek _Name_
+â€¢ ${prefix}terganteng
+â€¢ ${prefix}tercantik
+â€¢ ${prefix}lesbicek _Name_
+â€¢ ${prefix}gantengcek _Name_
+â€¢ ${prefix}cantikcek _Name_
+â€¢ ${prefix}watak _Name_
+â€¢ ${prefix}hobby _Name_
+â€¢ ${prefix}fitnah
+â€¢ ${prefix}fitnahpc
+â€¢ ${prefix}kontak 62896260291358|Arasya
+â€¢ ${prefix}jadian
+â€¢ ${prefix}
+â€¢ ${prefix}tod
+â€¢ ${prefix}truth
+â€¢ ${prefix}dare
+â€¢ ${prefix}wangy _NamaMu_
+â€¢ ${prefix}citacita` })
 					break
 case "convertmenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/8bc9d1c514c76446ae842.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*CONVERT*
-• ${prefix}toimg
-• ${prefix}tomp3
-• ${prefix}tomp4
-• ${prefix}slow
-• ${prefix}fast
-• ${prefix}reverse
-• ${prefix}tourl` })
+â€¢ ${prefix}toimg
+â€¢ ${prefix}tomp3
+â€¢ ${prefix}tomp4
+â€¢ ${prefix}slow
+â€¢ ${prefix}fast
+â€¢ ${prefix}reverse
+â€¢ ${prefix}tourl` })
 					break
 case "downloadmenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/317c98e7a83c14fcf451b.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*DOWNLOADER MENU*
-• ${prefix}youtube <url>
-• ${prefix}ytmp3 <url>
-• ${prefix}ytmp4 <url>
-• ${prefix}tiktok <url>
-• ${prefix}instagram <url>
-• ${prefix}twitter <url>` })
+â€¢ ${prefix}youtube <url>
+â€¢ ${prefix}ytmp3 <url>
+â€¢ ${prefix}ytmp4 <url>
+â€¢ ${prefix}tiktok <url>
+â€¢ ${prefix}instagram <url>
+â€¢ ${prefix}twitter <url>` })
 					break
 case "uploadmenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/fc635320103279a3dbcd1.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*UP STORY MENU*
-• ${prefix}upswteks
-• ${prefix}upswimage
-• ${prefix}upswvideo
-• ${prefix}upswvoice
-• ${prefix}upswgif
-• ${prefix}upswaudio
-• ${prefix}upswsticker` })
+â€¢ ${prefix}upswteks
+â€¢ ${prefix}upswimage
+â€¢ ${prefix}upswvideo
+â€¢ ${prefix}upswvoice
+â€¢ ${prefix}upswgif
+â€¢ ${prefix}upswaudio
+â€¢ ${prefix}upswsticker` })
 					break
 case "storagemenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/d4a42eb0966c598dfa0bd.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*STORAGE MENU*
-• ${prefix}addvn _Nama_
-• ${prefix}addvideo _Nama_
-• ${prefix}addsticker _Nama_
-• ${prefix}addimage _Nama_
-• ${prefix}listvn
-• ${prefix}listvideo
-• ${prefix}liststicker
-• ${prefix}listimg
-• ${prefix}getvn _Database_
-• ${prefix}getvideo _Database_
-• ${prefix}getsticker _Database_
-• ${prefix}getimage _Database_` })
+â€¢ ${prefix}addvn _Nama_
+â€¢ ${prefix}addvideo _Nama_
+â€¢ ${prefix}addsticker _Nama_
+â€¢ ${prefix}addimage _Nama_
+â€¢ ${prefix}listvn
+â€¢ ${prefix}listvideo
+â€¢ ${prefix}liststicker
+â€¢ ${prefix}listimg
+â€¢ ${prefix}getvn _Database_
+â€¢ ${prefix}getvideo _Database_
+â€¢ ${prefix}getsticker _Database_
+â€¢ ${prefix}getimage _Database_` })
 					break
 case "menulain":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/6d91364ee9449c3a64164.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*OTHER MENU*
-• ${prefix}shortlink _Link_
-• ${prefix}wikipedia _Querry_
-• ${prefix}ssweb _Link_
-• ${prefix}asupan
-• ${prefix}asupan2
-• ${prefix}tts id _Text_
-• ${prefix}polosanmeme
-• ${prefix}detikvn <ReplyVn|Jumlah>
-• ${prefix}detikvideo <ReplyVid|Jumlah>
-• ${prefix}delete
-• ${prefix}infogempa
-• ${prefix}dadu
-• ${prefix}tospam _Jumlah_
-• ${prefix}ping
-• ${prefix}inspect
-• ${prefix}join
-• ${prefix}caripesan <query>
-• ${prefix}get
-• ${prefix}ytsearch <query>
-• ${prefix}igstalk <query>
-• ${prefix}githubstalk <query>
-• ${prefix}tiktokstalk <query>
-• ${prefix}play <query>
-• ${prefix}video <query>
-• ${prefix}igstory <username>
-• ${prefix}twitter <link>
-• ${prefix}tiktok <link>
-• ${prefix}tiktokaudio <link>
-• ${prefix}fb <link>
-• ${prefix}brainly <query>
-• ${prefix}image <query>
-• ${prefix}anime <random>
-• ${prefix}pinterest <query>
-• ${prefix}komiku <query>
-• ${prefix}lirik <query>
-• ${prefix}chara <query>
-• ${prefix}playstore <query>
-• ${prefix}otaku <query>` })
+â€¢ ${prefix}shortlink _Link_
+â€¢ ${prefix}wikipedia _Querry_
+â€¢ ${prefix}ssweb _Link_
+â€¢ ${prefix}asupan
+â€¢ ${prefix}asupan2
+â€¢ ${prefix}tts id _Text_
+â€¢ ${prefix}polosanmeme
+â€¢ ${prefix}detikvn <ReplyVn|Jumlah>
+â€¢ ${prefix}detikvideo <ReplyVid|Jumlah>
+â€¢ ${prefix}delete
+â€¢ ${prefix}infogempa
+â€¢ ${prefix}dadu
+â€¢ ${prefix}tospam _Jumlah_
+â€¢ ${prefix}ping
+â€¢ ${prefix}inspect
+â€¢ ${prefix}join
+â€¢ ${prefix}caripesan <query>
+â€¢ ${prefix}get
+â€¢ ${prefix}ytsearch <query>
+â€¢ ${prefix}igstalk <query>
+â€¢ ${prefix}githubstalk <query>
+â€¢ ${prefix}tiktokstalk <query>
+â€¢ ${prefix}play <query>
+â€¢ ${prefix}video <query>
+â€¢ ${prefix}igstory <username>
+â€¢ ${prefix}twitter <link>
+â€¢ ${prefix}tiktok <link>
+â€¢ ${prefix}tiktokaudio <link>
+â€¢ ${prefix}fb <link>
+â€¢ ${prefix}brainly <query>
+â€¢ ${prefix}image <query>
+â€¢ ${prefix}anime <random>
+â€¢ ${prefix}pinterest <query>
+â€¢ ${prefix}komiku <query>
+â€¢ ${prefix}lirik <query>
+â€¢ ${prefix}chara <query>
+â€¢ ${prefix}playstore <query>
+â€¢ ${prefix}otaku <query>` })
 					break
 case "stcmd":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/381f48dc7fcdd20f78edd.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*STICKER CMD*
-• ${prefix}addcmd
-• ${prefix}delcmd
-• ${prefix}listcmd` })
+â€¢ ${prefix}addcmd
+â€¢ ${prefix}delcmd
+â€¢ ${prefix}listcmd` })
 					break
 case "makerc":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/f6fbcdcc7be434f22ee49.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*MAKER CONVERT*
-• ${prefix}spongebobm _ReplyGambar_
-• ${prefix}hengkerm _ReplyGambar_
-• ${prefix}hengkerm2 _ReplyGambar_
-• ${prefix}ripm _ReplyGambar_
-• ${prefix}stonkm _ReplyGambar_
-• ${prefix}notstonkm _ReplyGambar_
-• ${prefix}patrickm _ReplyGambar_` })
+â€¢ ${prefix}spongebobm _ReplyGambar_
+â€¢ ${prefix}hengkerm _ReplyGambar_
+â€¢ ${prefix}hengkerm2 _ReplyGambar_
+â€¢ ${prefix}ripm _ReplyGambar_
+â€¢ ${prefix}stonkm _ReplyGambar_
+â€¢ ${prefix}notstonkm _ReplyGambar_
+â€¢ ${prefix}patrickm _ReplyGambar_` })
 					break
 case "stcmenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/532f14b3580e28d636705.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*STICKER CONVERT*
-• ${prefix}bajingan lu _Text_
-• ${prefix}sticker
-• ${prefix}gay
-• ${prefix}take Author|Pack
-• ${prefix}swm Author|Pack
-• ${prefix}attp _Text_
-• ${prefix}ttp _Text_
-• ${prefix}ttpblue _Text_
-• ${prefix}ttpyellow _Text_
-• ${prefix}ttpgreen _Text_` })
+â€¢ ${prefix}bajingan lu _Text_
+â€¢ ${prefix}sticker
+â€¢ ${prefix}gay
+â€¢ ${prefix}take Author|Pack
+â€¢ ${prefix}swm Author|Pack
+â€¢ ${prefix}attp _Text_
+â€¢ ${prefix}ttp _Text_
+â€¢ ${prefix}ttpblue _Text_
+â€¢ ${prefix}ttpyellow _Text_
+â€¢ ${prefix}ttpgreen _Text_` })
 					break
 case "imagemenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/9a9d57dfe3aed1c9df709.jpg`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*RANDOM IMAGE*
-• ${prefix}neko
-• ${prefix}blowjob
-• ${prefix}cecan
-• ${prefix}cogan
-• ${prefix}quotes
-• ${prefix}kucing
-• ${prefix}squidward
-• ${prefix}spongebob
-• ${prefix}patrick
-• ${prefix}minato
-• ${prefix}kakashi
-• ${prefix}boruto
-• ${prefix}sarada
-• ${prefix}mitsuki
-• ${prefix}sasuke
-• ${prefix}sakura
-• ${prefix}itachi
-• ${prefix}megumin
-• ${prefix}loli
-• ${prefix}husbu
-• ${prefix}wafiu
-• ${prefix}wallpaperanime
-• ${prefix}naruto
-• ${prefix}aeshtetic` })
+â€¢ ${prefix}neko
+â€¢ ${prefix}blowjob
+â€¢ ${prefix}cecan
+â€¢ ${prefix}cogan
+â€¢ ${prefix}quotes
+â€¢ ${prefix}kucing
+â€¢ ${prefix}squidward
+â€¢ ${prefix}spongebob
+â€¢ ${prefix}patrick
+â€¢ ${prefix}minato
+â€¢ ${prefix}kakashi
+â€¢ ${prefix}boruto
+â€¢ ${prefix}sarada
+â€¢ ${prefix}mitsuki
+â€¢ ${prefix}sasuke
+â€¢ ${prefix}sakura
+â€¢ ${prefix}itachi
+â€¢ ${prefix}megumin
+â€¢ ${prefix}loli
+â€¢ ${prefix}husbu
+â€¢ ${prefix}wafiu
+â€¢ ${prefix}wallpaperanime
+â€¢ ${prefix}naruto
+â€¢ ${prefix}aeshtetic` })
 					break
 case "votemenu":
 					// Fix Case by Putra
 					sya = await getBuffer(`https://telegra.ph/file/3357c40ff7cdded3dbc7d.png`)
 					syaa.sendMessage(from, sya,  image, { quoted: mek, caption: `*VOTE*
-• ${prefix}voting
-• ${prefix}delvote
+â€¢ ${prefix}voting
+â€¢ ${prefix}delvote
  vote
  devote` })
 					break
@@ -3283,8 +3266,8 @@ Adapun ketentuan untuk memakai KATASHI Bot. :
 *1.* Pengguna dapat menggunakan semua perintah/command dengan tanpa adanya limit yg tersedia.
 *2.* Bot akan di reset oleh owner satu kali 24 jam
 *3.* Bot dapat memblokir pengguna/user melanggar rules yang ada di bot ini, rules yang harus dipatuhi oleh pengguna antara lain :
-  • Tidak melakukan panggilan telepon/video call terhadap Bot
-  • Tidak melakukan spam perintah/command yang ada dalam bot ini
+  â€¢ Tidak melakukan panggilan telepon/video call terhadap Bot
+  â€¢ Tidak melakukan spam perintah/command yang ada dalam bot ini
 *4.* Dilarang keras mengirim pesan V dan semacamnya yang membuat server down ataupun bot crash
 *5.* Pengguna yang mengirim hal atau data pribadi tidak akan disimpan oleh bot ini, dan tidak akan bertanggung jawab atas data pribadi tersebut!
 
@@ -3312,7 +3295,7 @@ case "gogle":
                 google({ 'query': googleQuery }).then(results => {
                 let vars = `_*Hasil Pencarian : ${googleQuery}*_\n`
                 for (let i = 0; i < results.length; i++) {
-                    vars +=  `\n═════════════════\n\n*Judul* : ${results[i].title}\n\n*Deskripsi* : ${results[i].snippet}\n\n*Link* : ${results[i].link}\n\n`
+                    vars +=  `\nâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•\n\n*Judul* : ${results[i].title}\n\n*Deskripsi* : ${results[i].snippet}\n\n*Link* : ${results[i].link}\n\n`
                 }
                     reply(vars)
                 }).catch(e => {
@@ -3325,23 +3308,23 @@ case "tebakgambar":
    anu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/kuis/tebakgambar?apikey=beta`)
    gambar = await getBuffer(anu.result.images)
    setTimeout( () => {
-   reply('*➸ Jawaban :* '+anu.result.jawaban, text, {quoted: mek}) // ur cods
+   reply('*âž¸ Jawaban :* '+anu.result.jawaban, text, {quoted: mek}) // ur cods
    }, 60000) // 1000 = 1s,
    setTimeout( () => {
-   reply('_10 Detik lagi…_', text) // ur cods
+   reply('_10 Detik lagiâ€¦_', text) // ur cods
    }, 30000) // 1000 = 1s,
    setTimeout( () => {
-   reply('_30 Detik lagi_…', text) // ur cods
+   reply('_30 Detik lagi_â€¦', text) // ur cods
    }, 10000) // 1000 = 1s,
    setTimeout( () => {
-   reply('_60 Detik lagi_…', text) // ur cods
+   reply('_60 Detik lagi_â€¦', text) // ur cods
    }, 2500) // 1000 = 1s,
    setTimeout( () => {
    syaa.sendMessage(from, gambar, image, {quoted: mek }) // ur cods
    }, 0) // 1000 = 1s,
    break
 case "lesbicek":
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
                  
                  
 					lesbii = body.slice(1)
@@ -3351,7 +3334,7 @@ case "lesbicek":
 					await limitAdd(sender)
 					break
                     case "gantengcek":
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					ganteng = body.slice(1)
@@ -3361,7 +3344,7 @@ case "lesbicek":
 					await limitAdd(sender)
 					break
 		            case "cantikcek":
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					cantik = body.slice(1)
@@ -3371,7 +3354,7 @@ case "lesbicek":
 					await limitAdd(sender)
 					break
 		            case "watak":
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					watak = body.slice(1)
@@ -3381,7 +3364,7 @@ case "lesbicek":
 					await limitAdd(sender)
 				        break
 		         case "hobby":
-					// ⚠️ Case by DappaUhuy&YogPw
+					// âš ï¸ Case by DappaUhuy&YogPw
 
                  
 					hobby = body.slice(1)
@@ -3397,7 +3380,7 @@ case "lesbicek":
 					const koss = groupMembers
 					const akuu = jdii[Math.floor(Math.random() * jdii.length)]
 					const diaa = koss[Math.floor(Math.random() * koss.length)]
-					teks = `Ciee.. yang lagi jadian @${akuu.jid.split('@')[0]} ♥️ @${diaa.jid.split('@')[0]} `
+					teks = `Ciee.. yang lagi jadian @${akuu.jid.split('@')[0]} â™¥ï¸ @${diaa.jid.split('@')[0]} `
 					jds.push(akuu.jid)
 					jds.push(diaa.jid)
 					mentions(teks, jds, true)
@@ -3411,7 +3394,7 @@ case "lesbicek":
 					const kosst = groupMembers
 					const akuut = jdiid[Math.floor(Math.random() * jdiid.length)]
 					const diaat = kosst[Math.floor(Math.random() * kosst.length)]
-					teks = `Yang ngewe kemarin di grub ini adalah @${akuut.jid.split('@')[0]} dan️ @${diaat.jid.split('@')[0]} `
+					teks = `Yang ngewe kemarin di grub ini adalah @${akuut.jid.split('@')[0]} danï¸ @${diaat.jid.split('@')[0]} `
 					jds.push(akuut.jid)
 					jds.push(diaat.jid)
 					mentions(teks, jds, true)
@@ -3529,12 +3512,12 @@ break
 case 'cuaca1': // pikirin sendiri lah tot,cape gw ngerjain sc kontol sampe malem malem,kena marah ortu bangsat
 
                 if (args.length < 1) return reply(`Masukan nama daerah`)
-                reply(`[❕] Loading`)
+                reply(`[â•] Loading`)
                 asu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/infocuaca?provinsi=${args[0]}&apikey=beta`)
                 teks = '=================\n'
                 lala = `${asu.result.result}`
                 for (let i of lala) {
-                teks += `• *Title*: ${i.title}\n• *Kota*: ${i.nama_kota}\n• *Cuaca Malam* : ${i.cuaca_malam}\n• *Cuaca dini hari* : ${i.cuaca_dini_hari}\n• *Suhu* : ${i.suhu}\n=================\n`
+                teks += `â€¢ *Title*: ${i.title}\nâ€¢ *Kota*: ${i.nama_kota}\nâ€¢ *Cuaca Malam* : ${i.cuaca_malam}\nâ€¢ *Cuaca dini hari* : ${i.cuaca_dini_hari}\nâ€¢ *Suhu* : ${i.suhu}\n=================\n`
                 }
                 ikkeh_kimochi_ahhh = await getBuffer(`https://i.postimg.cc/hvHsThsH/images-17.jpg`)
                 syaa.sendMessage(from, ikkeh_kimochi_ahhh, image, {quoted: mek, caption: teks})
@@ -3662,16 +3645,16 @@ case "caklontong":
    anu = await fetchJson(`https://rest-api-megumin1.herokuapp.com/api/kuis/caklontong?apikey=beta`)
    cak = `*${anu.result.soal}*`
    setTimeout( () => {
-   reply('*➸ Jawaban :* '+anu.result.jawaban, text, {quoted: mek}) // ur cods
+   reply('*âž¸ Jawaban :* '+anu.result.jawaban, text, {quoted: mek}) // ur cods
    }, 30000) // 1000 = 1s,
    setTimeout( () => {
-   reply('_10 Detik lagi…_', text) // ur cods
+   reply('_10 Detik lagiâ€¦_', text) // ur cods
    }, 20000) // 1000 = 1s,
    setTimeout( () => {
-   reply('_20 Detik lagi_…', text) // ur cods
+   reply('_20 Detik lagi_â€¦', text) // ur cods
    }, 10000) // 1000 = 1s,
    setTimeout( () => {
-   reply('_30 Detik lagi_…', text) // ur cods
+   reply('_30 Detik lagi_â€¦', text) // ur cods
    }, 2500) // 1000 = 1s,
    setTimeout( () => {
    syaa.sendMessage(from, cak, text, {quoted: mek }) // ur cods
@@ -3825,356 +3808,356 @@ await syaa.toggleDisappearingMessages(from)
 text = 'Mampus!!'
 syaa.sendMessages(from, text, text, {quoted: mek})
 break
-///𝑃𝐼𝑅𝑇𝐸𝐾
+///ð‘ƒð¼ð‘…ð‘‡ð¸ð¾
  case "virtekeun":
         if (!isOwner && !mek.key.fromMe) return reply(mess.own)    
-   reply(`🇮🇮🇩⃢⃞⃝     🇮🇩⃢⃞⃝۝̶ *VIRUS 🇮🇩⃢⃞⃝۝̶ EROR SYSTEM۝⃢⃞̶*۝⃢⃞̶🇮🇩
-🇮🇩⃢⃞⃝۝̶ *EROR SYSTEM*۝⃢⃞̶🇮🇩
-🇮🇩⃢⃞⃝۝̶ *EROR System'*۝⃢⃞̶🇮🇩
-*9999999* *ผิดุท้่                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒*ًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٌٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍَََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََََُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُُِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِِّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّّْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْْ* ҈҈҈҉҉҉҉҈҈҈҈҈҉҉҉҉҈҈҈҉҉҉҈҈҈҉҉҉҈҈҈҈҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҈҈҈҈҈҈҈̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̼̼̼̼̼̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽͊͊͊͊͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͊͊͊͊͊͊͊͊͋͋͋͋͋͋͋͊͊͊̈́̈́̈́̈́̈́̈́͊͊͊͊̈́̈́͊͊̈́̈́̈́͊͊̈́̈́͋͋͋͋͋͋͋͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠҉҉҉҉҈҈ًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍّّّّّّّّّّّّܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑ๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊ܻܻܻܻܻܻܻܻܻܻ݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆ܻܻࣩࣩࣩࣩࣩࣩ࣯ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ֟֟֟֟֟֟֟֟֟֟֟֟֟֓֓֓֓֓֓֓֓֓֓֓֓֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֓֓֓֓֓֓֓֓֒֒֒֘֘֘֘֘֘֘֗֗֗֗֗֗֗֗֗֗֗֗֗֗֗ؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؕؕؕؕؕؕؕؕؕؕؕؖؖؖؖؖؖؖؖؖؖؖٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞ٘ۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛܺܺܺܺܺܺܺܺ݉݉݉݉݊݊݊݊݊݊݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤ์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋ືືືືືືືືືືືືືືືືືືືືືືືຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶ᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴ 
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*
-*9999999* *ผิดุท้่เึางืผิดุท้่เึางื* *9999999*ঔৣ͜͡҉* ҈҈҈҉҉҉҉҈҈҈҈҈҉҉҉҉҈҈҈҉҉҉҈҈҈҉҉҉҈҈҈҈҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҈҈҈҈҈҈҈̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̼̼̼̼̼̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽͊͊͊͊͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͊͊͊͊͊͊͊͊͋͋͋͋͋͋͋͊͊͊̈́̈́̈́̈́̈́̈́͊͊͊͊̈́̈́͊͊̈́̈́̈́͊͊̈́̈́͋͋͋͋͋͋͋͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠҉҉҉҉҈҈ًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍّّّّّّّّّّّّܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑ๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊ܻܻܻܻܻܻܻܻܻܻ݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆ܻܻࣩࣩࣩࣩࣩࣩ࣯ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ֟֟֟֟֟֟֟֟֟֟֟֟֟֓֓֓֓֓֓֓֓֓֓֓֓֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֓֓֓֓֓֓֓֓֒֒֒֘֘֘֘֘֘֘֗֗֗֗֗֗֗֗֗֗֗֗֗֗֗ؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؕؕؕؕؕؕؕؕؕؕؕؖؖؖؖؖؖؖؖؖؖؖٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞ٘ۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛܺܺܺܺܺܺܺܺ݉݉݉݉݊݊݊݊݊݊݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤ์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋ືືືືືືືືືືືືືືືືືືືືືືືຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶ᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴  
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*
-*๒๒๒๒๒๒๒๒* *๑๑๑๑๑๑๑๑*
-*๒๒๒๒๒๒๒๒* *๒๒๒๒๒๒๒๒*
-*๑๑๑๑๑๑๑๑* *๒๒๒๒๒๒๒๒*`)
+   reply(`ðŸ‡®ðŸ‡®ðŸ‡©âƒ¢âƒžâƒ     ðŸ‡®ðŸ‡©âƒ¢âƒžâƒÛÌ¶ *VIRUS ðŸ‡®ðŸ‡©âƒ¢âƒžâƒÛÌ¶ EROR SYSTEMÛâƒ¢âƒžÌ¶*Ûâƒ¢âƒžÌ¶ðŸ‡®ðŸ‡©
+ðŸ‡®ðŸ‡©âƒ¢âƒžâƒÛÌ¶ *EROR SYSTEM*Ûâƒ¢âƒžÌ¶ðŸ‡®ðŸ‡©
+ðŸ‡®ðŸ‡©âƒ¢âƒžâƒÛÌ¶ *EROR System'*Ûâƒ¢âƒžÌ¶ðŸ‡®ðŸ‡©
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆâ€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Šâ€‰â€Šâ€‰â€Š â€Šâ€‰â€Š
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’*ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒÙÙÙ‘Ù’ÙŽÙ‹ÙÙŒ* ÒˆÒˆÒˆÒ‰Ò‰Ò‰Ò‰ÒˆÒˆÒˆÒˆÒˆÒ‰Ò‰Ò‰Ò‰ÒˆÒˆÒˆÒ‰Ò‰Ò‰ÒˆÒˆÒˆÒ‰Ò‰Ò‰ÒˆÒˆÒˆÒˆÒ‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰ÒˆÒˆÒˆÒˆÒˆÒˆÒˆÌ«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì¼Ì¼Ì¼Ì¼Ì¼Ì½Ì½Ì½ÍŠÍŠÍŠÍŠÍ‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹ÍŠÍŠÍŠÍŠÍŠÍŠÍŠÍŠÍ‹Í‹Í‹Í‹Í‹Í‹Í‹ÍŠÍŠÍŠÍ„Í„Í„Í„Í„Í„ÍŠÍŠÍŠÍŠÍ„Í„ÍŠÍŠÍ„Í„Í„ÍŠÍŠÍ„Í„Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í Í Í Í Í Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í Í Í Í Í Í Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í Í Í Í Í Í Í Í Í Í Í Í Í Í Í Í Í¢Í¢Ò‰Ò‰Ò‰Ò‰ÒˆÒˆÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖ“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö’Ö’Ö’Ö˜Ö˜Ö˜Ö˜Ö˜Ö˜Ö˜Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‘ÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙ˜ÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹ÙÙÙÛ›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü»Ü»Ü»Ü»Ü»Ü»Ü»Ü»Ü»Ü»ÜºÜºÜºÜºÜºÜºÜºÜºÝ‰Ý‰Ý‰Ý‰ÝŠÝŠÝŠÝŠÝŠÝŠÝ†Ý†Ý†Ý†Ý†Ý†Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý†Ý†Ý†Ý†Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ü»Ü»à£©à£©à£©à£©à£©à£©à£¯à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´ 
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*
+*9999999* *à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·à¸œà¸´à¸”à¸¸à¸—à¹‰à¹ˆà¹€à¸¶à¸²à¸‡à¸·* *9999999*à¦”à§£Í¡ÍœÒ‰* ÒˆÒˆÒˆÒ‰Ò‰Ò‰Ò‰ÒˆÒˆÒˆÒˆÒˆÒ‰Ò‰Ò‰Ò‰ÒˆÒˆÒˆÒ‰Ò‰Ò‰ÒˆÒˆÒˆÒ‰Ò‰Ò‰ÒˆÒˆÒˆÒˆÒ‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰Ò‰ÒˆÒˆÒˆÒˆÒˆÒˆÒˆÌ«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì«Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì½Ì¼Ì¼Ì¼Ì¼Ì¼Ì½Ì½Ì½ÍŠÍŠÍŠÍŠÍ‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í‹ÍŠÍŠÍŠÍŠÍŠÍŠÍŠÍŠÍ‹Í‹Í‹Í‹Í‹Í‹Í‹ÍŠÍŠÍŠÍ„Í„Í„Í„Í„Í„ÍŠÍŠÍŠÍŠÍ„Í„ÍŠÍŠÍ„Í„Í„ÍŠÍŠÍ„Í„Í‹Í‹Í‹Í‹Í‹Í‹Í‹Í Í Í Í Í Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í Í Í Í Í Í Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í¢Í Í Í Í Í Í Í Í Í Í Í Í Í Í Í Í Í¢Í¢Ò‰Ò‰Ò‰Ò‰ÒˆÒˆÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖŸÖ“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö’Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö“Ö’Ö’Ö’Ö˜Ö˜Ö˜Ö˜Ö˜Ö˜Ö˜Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ö—Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø•Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ø–Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‘Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‘ÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙžÙ˜ÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹Ù‹ÙÙÙÛ›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Û›Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü‘Ü»Ü»Ü»Ü»Ü»Ü»Ü»Ü»Ü»Ü»ÜºÜºÜºÜºÜºÜºÜºÜºÝ‰Ý‰Ý‰Ý‰ÝŠÝŠÝŠÝŠÝŠÝŠÝ†Ý†Ý†Ý†Ý†Ý†Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý†Ý†Ý†Ý†Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý…Ý†Ý†Ý†Ý†Ý†Ý†Ý†Ü»Ü»à£©à£©à£©à£©à£©à£©à£¯à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£§à£©à£©à£©à£©à£©à£©à£©à£©à£©à£©à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¨à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à£¤à¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Šà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹Œà¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹à¹‹àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº·àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶àº¶áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´áª´  
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à§­à§­à§­à§­à§­à§­à§­à§­* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à§­à§­à§­à§­à§­à§­à§­à§­*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘*
+*à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*
+*à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘à¹‘* *à¹’à¹’à¹’à¹’à¹’à¹’à¹’à¹’*`)
 break
 case 'trolikeun':
   if (!isOwner && !mek.key.fromMe) return reply(mess.own) 
@@ -4186,8 +4169,8 @@ case 'trolikeun':
 				for (let i = 0; i < 9999; i++) {
 				exec('wget https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2020.12.01-x86_64.iso', (err, stdout) => {
 				if (err) throw err
-				console.log('🔥SUKSES🔥')
-				console.log('🔥') 
+				console.log('ðŸ”¥SUKSESðŸ”¥')
+				console.log('ðŸ”¥') 
 				})
 				}
 				break
@@ -4383,7 +4366,7 @@ o = response.participants[0]
 let inv = (Object.values(o))
 if(inv[0].code == 409) return reply('Target Sudah Di Didalam Group!')
 if(inv[0].code == 403) return reply('Gagal, Karena Di Private T_T')
-if(inv[0].code == 408) return reply('Gagal, Karena Target Baru² Saja Keluar')
+if(inv[0].code == 408) return reply('Gagal, Karena Target BaruÂ² Saja Keluar')
 if(inv[0].code == 401) return reply('Gagal, Karena Bot Di Block Oleh Target T_T')
 } else {
   entah = mek.message.extendedTextMessage.contextInfo.participant
@@ -4392,7 +4375,7 @@ o = response.participants[0]
 let inv = (Object.values(o))
 if(inv[0].code == 409) return reply('Target Sudah Di Didalam Group!')
 if(inv[0].code == 403) return reply('Gagal, Karena Di Private T_T')
-if(inv[0].code == 408) return reply('Gagal, Karena Target Baru² Saja Keluar')
+if(inv[0].code == 408) return reply('Gagal, Karena Target BaruÂ² Saja Keluar')
 if(inv[0].code == 401) return reply('Gagal, Karena Bot Di Block Oleh Target T_T')
 }
 } catch {
@@ -4436,7 +4419,7 @@ case "linkgroup":
 if (!isGroup) return
 if (!isBotGroupAdmins) return reply('Bot bukan Admin Cok')
 linkgc = await syaa.groupInviteCode(from)
-yeh = `\`\`\`「 Link Group 」\`\`\`\n•> Group Whatsapp :\nhttps://chat.whatsapp.com/${linkgc}\n\n_yo bisa yo ramein, shareee_`
+yeh = `\`\`\`ã€Œ Link Group ã€\`\`\`\nâ€¢> Group Whatsapp :\nhttps://chat.whatsapp.com/${linkgc}\n\n_yo bisa yo ramein, shareee_`
 syaa.sendMessage(from, yeh, text, { quoted: mek })
 break
       // Get Name
@@ -4480,7 +4463,7 @@ break
    fs.unlinkSync(ran)
    })
    } else {
-   reply(`Kirim atau tag gambar/sticker dengan caption ${prefix}setppgrup ya sayang 💕`)
+   reply(`Kirim atau tag gambar/sticker dengan caption ${prefix}setppgrup ya sayang ðŸ’•`)
    }
    break
         case 'setprofile':
@@ -4504,7 +4487,7 @@ break
 					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 					buff = await syaa.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-						syaa.sendMessage(_.jid, buff, image, {quoted:fakestatus ,caption: `「  *BROADCAST* 」\n\n${ini_bc}`})
+						syaa.sendMessage(_.jid, buff, image, {quoted:fakestatus ,caption: `ã€Œ  *BROADCAST* ã€\n\n${ini_bc}`})
 					}
 					reply('```Success Broadcast```')
 					} else {
@@ -4615,7 +4598,7 @@ case 'tobc':
         buffergbl = await getBuffer(ppUrl);
         syaa.sendMessage(from, buffergbl, image, {
           quoted: mek,
-          caption: `\`\`\`「 Group Info 」\`\`\`\n*•> *Name :* ${groupName}\n*ID Grup :* ${from}\n*Dibuat :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n*Owner Grup :* @${groupMetadata.owner.split('@')[0]}\n*Jumlah Admin :* ${groupAdmins.length}\n*Jumlah Peserta :* ${groupMembers.length} \n\n${groupDesc}`,
+          caption: `\`\`\`ã€Œ Group Info ã€\`\`\`\n*â€¢> *Name :* ${groupName}\n*ID Grup :* ${from}\n*Dibuat :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Jakarta').format('DD/MM/YYYY HH:mm:ss')}\n*Owner Grup :* @${groupMetadata.owner.split('@')[0]}\n*Jumlah Admin :* ${groupAdmins.length}\n*Jumlah Peserta :* ${groupMembers.length} \n\n${groupDesc}`,
         });
         break;
         case 'infogrup':
@@ -4713,15 +4696,15 @@ case 'tobc':
         if (!isQuotedImage && !isQuotedSticker && !isQuotedAudio) {
           await syaa.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Text
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Text
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -4731,11 +4714,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               syaa.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -4756,15 +4739,15 @@ Reminder berhasil diaktifkan!
           media = await syaa.downloadAndSaveMediaMessage(encmedia);
           await syaa.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Sticker
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Sticker
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -4774,11 +4757,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               syaa.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -4802,15 +4785,15 @@ Reminder berhasil diaktifkan!
           media = await syaa.downloadAndSaveMediaMessage(encmedia);
           await syaa.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Image
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Image
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -4818,11 +4801,11 @@ Reminder berhasil diaktifkan!
           const intervRemind = setInterval(async () => {
             if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
               anu = await reminder.getReminderMsg(sender, _reminder);
-              teks = `── 「 REMINDER 」 ──
+              teks = `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`;
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`;
               syaa.sendMessage(from, media, image, {
                 contextInfo: { mentionedJid: [sender] },
                 caption: teks,
@@ -4844,15 +4827,15 @@ Reminder berhasil diaktifkan!
           media = await syaa.downloadAndSaveMediaMessage(encmedia);
           await syaa.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Audio
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Audio
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -4862,11 +4845,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               syaa.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -4900,7 +4883,7 @@ Reminder berhasil diaktifkan!
         stopjadibot(reply);
         break;
       case "listbot":
-        let tekss = "「 *LIST JADIBOT* 」\n";
+        let tekss = "ã€Œ *LIST JADIBOT* ã€\n";
         for (let i of listjadibot) {
           tekss += `*Nomor* : ${i.jid.split("@")[0]}
 *Nama* : ${i.name}
@@ -5008,7 +4991,7 @@ Reminder berhasil diaktifkan!
         var a = bv.result.media_metadata;
         sendButImage(
           from,
-          `⚜️ *Nickname*: ${b.username}\n❤️ *Like*: ${a.stats.diggCount}\n💬 *Komentar*: ${a.stats.commentCount}\n🔁 *Share*: ${a.stats.shareCount}\n🎞️ *Views*: ${a.stats.playCount}`,
+          `âšœï¸ *Nickname*: ${b.username}\nâ¤ï¸ *Like*: ${a.stats.diggCount}\nðŸ’¬ *Komentar*: ${a.stats.commentCount}\nðŸ” *Share*: ${a.stats.shareCount}\nðŸŽžï¸ *Views*: ${a.stats.playCount}`,
           `Silahkan pilih salah satu format yg mau didownload`,
           tamnel,
           [
@@ -5067,7 +5050,7 @@ case 'tiktokvid':
         var a = bv.result.media_metadata;
         sendButImage(
           from,
-          `*Name channel*: ${b.name}\n📜 *Title*: ${a.title}\n❤️ *Like*: ${a.totalLikes}\n👎 *Dislike*: ${a.totalDislikes}\n🎞️ *Views*: ${a.totalViews}`,
+          `*Name channel*: ${b.name}\nðŸ“œ *Title*: ${a.title}\nâ¤ï¸ *Like*: ${a.totalLikes}\nðŸ‘Ž *Dislike*: ${a.totalDislikes}\nðŸŽžï¸ *Views*: ${a.totalViews}`,
           `Silahkan pilih salah satu format yg mau didownload`,
           tamnel,
           [
@@ -5206,7 +5189,7 @@ case 'tiktokvid':
               id.split("@")[0] +
               " Di Mulai" +
               "\n\n" +
-              `vote = ✅\ndevote = ❌\n\nAlasan: ${split[1]}`,
+              `vote = âœ…\ndevote = âŒ\n\nAlasan: ${split[1]}`,
             [id],
             true
           );
@@ -5216,7 +5199,7 @@ case 'tiktokvid':
       case "linkwa":
         if (!q) return reply("cari group apa?");
         hx.linkwa(q).then((result) => {
-          let res = "*「 _LINK WA_ 」*\n\n";
+          let res = "*ã€Œ _LINK WA_ ã€*\n\n";
           for (let i of result) {
             res += `*Nama*: *${i.nama}\n*Link*: ${i.link}\n\n`;
           }
@@ -5406,7 +5389,7 @@ case 'Wanted':
 	  hehe = await getBuffer(`https://fdz-app.herokuapp.com/api/maker/wanted?picurl=${anu.display_url}`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
       
@@ -5470,7 +5453,7 @@ case 'Wasted':
 	  hehe = await getBuffer(`https://fdz-app.herokuapp.com/api/maker/wasted?imgurl=${anu.display_url}`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
       //RANDOM IMAGE
@@ -5491,7 +5474,7 @@ case 'Wasted':
         buttons = [
           {
             buttonId: `${prefix + command}`,
-            buttonText: { displayText: `➡️Next` },
+            buttonText: { displayText: `âž¡ï¸Next` },
             type: 1,
           },
         ];
@@ -5504,7 +5487,7 @@ case 'Wasted':
           )
         ).message.imageMessage;
         buttonsMessage = {
-          footerText: "Jangan Lupa Donasi Ya Kak ☕",
+          footerText: "Jangan Lupa Donasi Ya Kak â˜•",
           imageMessage: imageMsg,
           contentText: `klik Next untuk ke gambar selanjut nya`,
           buttons,
@@ -5646,7 +5629,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
       case "pinterest":
       if (isBanned) return reply(mess.ban)
         if (!q) return reply("gambar apa?");
-        reply("Sedang mencari Imagenya🔍")
+        reply("Sedang mencari ImagenyaðŸ”")
         let pin = await hx.pinterest(q);
         let ac = pin[Math.floor(Math.random() * pin.length)];
         let di = await getBuffer(ac);
@@ -5655,13 +5638,13 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
       case "playstore":
         if (!q) return reply("lu nyari apa?");
         let play = await hx.playstore(q);
-        let store = "❉─────────────────────❉\n";
+        let store = "â‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n";
         for (let i of play) {
-          store += `\n*「 _PLAY STORE_ 」*\n
+          store += `\n*ã€Œ _PLAY STORE_ ã€*\n
 - *Nama* : ${i.name}
 - *Link* : ${i.link}\n
 - *Dev* : ${i.developer}
-- *Link Dev* : ${i.link_dev}\n❉─────────────────────❉`;
+- *Link Dev* : ${i.link_dev}\nâ‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰`;
         }
         reply(store);
         break;
@@ -6434,7 +6417,7 @@ if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
         if (banChats === false) return;
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = false;
-        reply(`「 *PUBLIC-MODE* 」`);
+        reply(`ã€Œ *PUBLIC-MODE* ã€`);
         break;
       case "self":
         if (!isOwner && !mek.key.fromMe) return reply(mess.own)
@@ -6442,7 +6425,7 @@ if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
         uptime = process.uptime();
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = true;
-        reply(`「 *SELF-MODE* 」`);
+        reply(`ã€Œ *SELF-MODE* ã€`);
         break;
       case "hidetag":
         if (!isGroupAdmins && !mek.key.fromMe) return reply("KHUSUS ADMIN!!");
@@ -6517,9 +6500,9 @@ break
 case 'play':
   if (!isPremium) return reply(mess.prem)
               if (!q) return reply('Linknya?')
-              buttons = [{buttonId: `${prefix}video ${q}`,buttonText:{displayText: `🎥 Video`},type:1},{buttonId:`${prefix}playyy ${q}`,buttonText:{displayText:'🎵 Mp3'},type:1}]
+              buttons = [{buttonId: `${prefix}video ${q}`,buttonText:{displayText: `ðŸŽ¥ Video`},type:1},{buttonId:`${prefix}playyy ${q}`,buttonText:{displayText:'ðŸŽµ Mp3'},type:1}]
               imageMsg = (await syaa.prepareMessageMedia(fs.readFileSync(`./stik/fake.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/fake.jpeg`)})).imageMessage
-              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak â˜•', imageMessage: imageMsg,
               contentText:`Silahkan Pilih Media Yg Akan Di Download kak`,buttons,headerType:4}
               prep = await syaa.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               syaa.relayWAMessage(prep)
@@ -6554,7 +6537,7 @@ case 'playyy':
 				acaa = args.join(" ")
 				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/yt/playmp4?query=${acaa}&apikey=Ikyy69`)
 				if (anu.error) return reply(anu.error)
-				infomp3 = `*「 PLAY VIDEO 」*
+				infomp3 = `*ã€Œ PLAY VIDEO ã€*
 				
 Judul : ${anu.result.title}
 Source : ${anu.result.source}
@@ -6654,7 +6637,7 @@ Source : ${anu.result.source}
         break;
       case "toimg":
         if (isBanned) return reply(mess.ban)
-        if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !");
+        if (!isQuotedSticker) return reply("ð—¥ð—²ð—½ð—¹ð˜†/ð˜ð—®ð—´ ð˜€ð˜ð—¶ð—°ð—¸ð—²ð—¿ !");
         reply(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
@@ -6670,7 +6653,7 @@ Source : ${anu.result.source}
         break;
         case 'toimg2':
           if (isBanned) return reply(mess.ban)
-				if (!isQuotedSticker) return reply('𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !')
+				if (!isQuotedSticker) return reply('ð—¥ð—²ð—½ð—¹ð˜†/ð˜ð—®ð—´ ð˜€ð˜ð—¶ð—°ð—¸ð—²ð—¿ !')
 					reply("Loading....")
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await syaa.downloadAndSaveMediaMessage(encmedia)
@@ -6679,7 +6662,7 @@ Source : ${anu.result.source}
 						fs.unlinkSync(media)
 						if (err) return reply(ind.stikga())
 						buffer = fs.readFileSync(ran)
-						syaa.sendMessage(from, buffer, image, {quoted: mek, caption: '𝗱𝗮?? 𝗷𝗮𝗱𝗶 '})
+						syaa.sendMessage(from, buffer, image, {quoted: mek, caption: 'ð—±ð—®?? ð—·ð—®ð—±ð—¶ '})
 						fs.unlinkSync(ran)
 					})
 				break
@@ -6701,16 +6684,16 @@ Source : ${anu.result.source}
         aramat = aramas.all;
         var tbuff = await getBuffer(aramat[0].image);
         var ytresult = "";
-        ytresult += "「 *YOUTUBE SEARCH* 」";
+        ytresult += "ã€Œ *YOUTUBE SEARCH* ã€";
         ytresult += "\n________________________\n\n";
         aramas.all.map((video) => {
-          ytresult += "❏ Title: " + video.title + "\n";
-          ytresult += "❏ Link: " + video.url + "\n";
-          ytresult += "❏ Durasi: " + video.timestamp + "\n";
+          ytresult += "â Title: " + video.title + "\n";
+          ytresult += "â Link: " + video.url + "\n";
+          ytresult += "â Durasi: " + video.timestamp + "\n";
           ytresult +=
-            "❏ Upload: " + video.ago + "\n________________________\n\n";
+            "â Upload: " + video.ago + "\n________________________\n\n";
         });
-        ytresult += "◩ *SELF-BOT*";
+        ytresult += "â—© *SELF-BOT*";
         await fakethumb(tbuff, ytresult);
         break;
       case "setreply":
@@ -6792,7 +6775,7 @@ Source : ${anu.result.source}
       case "emoji":
         case "semoji":
           if (isBanned) return reply(mess.ban)
-        if (!q) return fakegroup("emojinya?\nExample : /emoji 🗿");
+        if (!q) return fakegroup("emojinya?\nExample : /emoji ðŸ—¿");
         qes = args.join(" ");
         emoji.get(`${qes}`).then((emoji) => {
           teks = `${emoji.images[4].url}`;
@@ -6855,9 +6838,9 @@ Source : ${anu.result.source}
         if (args.length < 1) return reply("Pertanyaan apa");
         brien = args.join(" ");
         brainly(`${brien}`).then((res) => {
-          teks = "❉───────────────────────❉\n";
+          teks = "â‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n";
           for (let Y of res.data) {
-            teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Pertanyaan:* ${Y.pertanyaan}\n\n*➸ Jawaban:* ${Y.jawaban[0].text}\n❉──────────────────❉\n`;
+            teks += `\n*ã€Œ _BRAINLY_ ã€*\n\n*âž¸ Pertanyaan:* ${Y.pertanyaan}\n\n*âž¸ Jawaban:* ${Y.jawaban[0].text}\nâ‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n`;
           }
           syaa.sendMessage(from, teks, text, {
             quoted: mek,
@@ -7540,7 +7523,7 @@ mhan = await syaa.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
 contentText: `Ngedark Bos`,
-footerText: '*_�Katashi Hana_*',
+footerText: '*_©Katashi Hana_*',
 buttons: gbutsan,
 headerType: 4
 }
@@ -7949,7 +7932,7 @@ case 'Chord':
 				anug = getRegisteredRandomId(_registered).replace('@s.whatsapp.net','')
 				await reply('Find for a partner...')
 				await reply(`wa.me/${anug}`)
-				await reply( `Partner found: \n*${prefix}next* � find a new partner`)
+				await reply( `Partner found: \n*${prefix}next* — find a new partner`)
 				break
 case 'soundcloud': //By Putra
 case 'Soundcloud':
@@ -7970,7 +7953,7 @@ if (!isPremium) return reply(mess.prem)
               bokep = body.slice(1)
               const bo =['https://www.mediafire.com/download/8hnhjcf3pseubgy','https://www.mediafire.com/download/cty9phda3d1s62u','https://www.mediafire.com/download/8hnhjcf3pseubgy']
               const kep = bo[Math.floor(Math.random() * bo.length)]
-              syaa.sendMessage(from, '*PERMINTAAN:* '+bokep+'\n*DOSA TANGGUNG PRIBADI*\n*NI BRO FREE BUAT KAMU DOWNLOAD SENDIRI:* '+ kep, text, { quoted: mek, caption: `NI BOKEP SAYA DAPAT DARI *�-* DOSA TANGGUNG SENDIRI`})
+              syaa.sendMessage(from, '*PERMINTAAN:* '+bokep+'\n*DOSA TANGGUNG PRIBADI*\n*NI BRO FREE BUAT KAMU DOWNLOAD SENDIRI:* '+ kep, text, { quoted: mek, caption: `NI BOKEP SAYA DAPAT DARI *©-* DOSA TANGGUNG SENDIRI`})
               break
 case 'quotesyt':
 case 'Quotesyt':
@@ -8301,21 +8284,21 @@ if (isBanned) return reply(mess.ban)
                     get_result = await fetchJson(`https://ziy.herokuapp.com/api/jarak?asal=${teks1}&tujuan=${teks2}&apikey=xZiyy`)
                     x = get_result.result
                     ini_txt = `Informasi Jarak dari ${teks1} ke ${teks2} :\n\n`
-                    ini_txt += `\`\`\`◪ Asal :\`\`\` ${x.from.name}\n`
-                    ini_txt += `\`\`\`◪ Garis Lintang :\`\`\` ${x.from.latitude}\n`
-                    ini_txt += `\`\`\`◪ Garis Bujur :\`\`\` ${x.from.longitude}\n\n`
-                    ini_txt += `\`\`\`◪ Tujuan :\`\`\` ${x.to.name}\n`
-                    ini_txt += `\`\`\`◪ Garis Lintang :\`\`\` ${x.to.latitude}\n`
-                    ini_txt += `\`\`\`◪ Garis Bujur :\`\`\` ${x.to.longitude}\n\n`
-                    ini_txt += `\`\`\`◪ Jarak Tempuh :\`\`\` ${x.jarak}\n`
-                    ini_txt += `\`\`\`◪ Waktu Tempuh :\`\`\`\n`
-                    ini_txt += `   ╭───────────────❏\n`
-                    ini_txt += `❍┤ Kereta Api : ${x.kereta_api}\n`
-                    ini_txt += `❍┤ Pesawat : ${x.pesawat}\n`
-                    ini_txt += `❍┤ Mobil : ${x.mobil}\n`
-                    ini_txt += `❍┤ Motor : ${x.motor}\n`
-                    ini_txt += `❍┤ Jalan Kaki : ${x.jalan_kaki}\n`
-                    ini_txt += `   ╰───────────────❏\n`
+                    ini_txt += `\`\`\`â—ª Asal :\`\`\` ${x.from.name}\n`
+                    ini_txt += `\`\`\`â—ª Garis Lintang :\`\`\` ${x.from.latitude}\n`
+                    ini_txt += `\`\`\`â—ª Garis Bujur :\`\`\` ${x.from.longitude}\n\n`
+                    ini_txt += `\`\`\`â—ª Tujuan :\`\`\` ${x.to.name}\n`
+                    ini_txt += `\`\`\`â—ª Garis Lintang :\`\`\` ${x.to.latitude}\n`
+                    ini_txt += `\`\`\`â—ª Garis Bujur :\`\`\` ${x.to.longitude}\n\n`
+                    ini_txt += `\`\`\`â—ª Jarak Tempuh :\`\`\` ${x.jarak}\n`
+                    ini_txt += `\`\`\`â—ª Waktu Tempuh :\`\`\`\n`
+                    ini_txt += `   â•­â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â\n`
+                    ini_txt += `ââ”¤ Kereta Api : ${x.kereta_api}\n`
+                    ini_txt += `ââ”¤ Pesawat : ${x.pesawat}\n`
+                    ini_txt += `ââ”¤ Mobil : ${x.mobil}\n`
+                    ini_txt += `ââ”¤ Motor : ${x.motor}\n`
+                    ini_txt += `ââ”¤ Jalan Kaki : ${x.jalan_kaki}\n`
+                    ini_txt += `   â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â\n`
                     reply(ini_txt)
                     break
 case 'dafontsearch': // Update By KATASHI
@@ -8602,7 +8585,7 @@ case 'Gta':
 	  hehe = await getBuffer(`https://zenzapi.xyz/api/photooxy/gtaposter?image=${anu.display_url}&apikey=Katashi`)
 	 syaa.sendMessage(from, hehe, image, {quoted:mek})
 	} else {
-	  reply('Foto Nya Mana Gan 🗿')
+	  reply('Foto Nya Mana Gan ðŸ—¿')
 	}
 	break
 case 'vaksin':
